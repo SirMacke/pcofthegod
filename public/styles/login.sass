@@ -1,0 +1,87 @@
+body
+  margin: 0
+  font-family: 'Questrial', sans-serif
+  color: white
+
+  img
+    position: absolute
+    object-fit: cover
+    height: 100%
+    width: 100vw
+
+  form
+    position: absolute
+    width: 500px
+    height: auto
+    left: 50%
+    top: 45%
+    transform: translate(-50%, -50%)
+
+    @media (max-aspect-ratio: 2/3)
+      top: 55%
+
+    @media (max-aspect-ratio: 1/2)
+      transform: scale(1.5)
+      left: 25%
+      top: 50%
+
+    h1
+      position: relative
+      font-family: 'Russo One', sans-serif
+      font-size: 6em
+      text-align: center
+      margin-bottom: 50px
+
+    div
+      position: relative
+      width: 100%
+      height: 100px
+
+      .icon-div
+        position: relative
+        width: 20%
+        height: 73px
+        left: 0%
+        top: 50%
+        transform: translateY(-50%)
+        background: dimgrey
+        opacity: 0.9
+        border-radius: 5px 0px 0px 5px
+
+        i
+          position: absolute
+          left: 50%
+          top: 50%
+          transform: translate(-50%, -50%)
+          font-size: 1.25em
+          color: white
+
+      input
+        position: absolute
+        width: 375px
+        height: 71px
+        top: 12px
+        left: 20%
+        border: none
+        padding-left: 25px
+        font-size: 1.25em
+        opacity: 0.9
+        border-radius: 0px 5px 5px 0px
+        margin-top: 1px
+
+      input:focus
+        outline: none
+
+      #login
+        position: relative
+        height: 70px
+        width: 225px
+        top: 75px
+        left: 50%
+        transform: translate(-50%, -50%)
+        text-decoration: none
+        color: white
+        border: 2px solid white
+        font-size: 1.6em
+        background: none
+        cursor: pointer

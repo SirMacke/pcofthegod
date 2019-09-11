@@ -1,0 +1,993 @@
+body
+  margin: 0
+  font-family: 'Questrial', sans-serif
+  color: white
+
+section
+  height: 100vh
+  width: 100%
+  background: black
+  margin: 0
+
+  h1
+    position: relative
+    text-align: center
+    margin-top: 0
+    top: 12.5%
+    font-size: 3em
+
+  div
+    display: flex
+    position: relative
+    width: 75%
+    height: 50%
+    top: 45%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+
+#top
+
+  img
+    object-fit: cover
+    width: 100%
+    height: 100vh
+    margin-bottom: -3px
+
+  h1
+    position: absolute
+    width: 100%
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    font-family: 'Russo One', sans-serif
+    font-size: 5em
+    text-align: center
+
+  h3
+    position: absolute
+    top: 55%
+    left: 50%
+    transform: translate(-50%, -50%)
+    font-size: 2em
+    text-align: center
+
+  button
+    position: absolute
+    top: 70%
+    left: 50%
+    transform: translate(-50%, -50%)
+    text-decoration: none
+    color: white
+    border: 2px solid white
+    padding: 15px 75px
+    font-size: 1.6em
+    background: none
+    cursor: pointer
+
+    @media (max-aspect-ratio: 1/2)
+      top: 62.5%
+
+#usecase
+  display: none
+
+  div
+    @media (max-aspect-ratio: 2/3)
+      display: flex
+      flex-direction: column
+      top: 35%
+
+    @media (max-aspect-ratio: 1/2)
+      height: 70%
+
+    .usecases
+      position: relative
+      left: 0%
+      transform: translate(0, -50%)
+      width: 100%
+      height: 100%
+      margin: 20px
+      border: 3px solid rgba(255, 0, 0, 0.75)
+
+      @media (max-aspect-ratio: 1/1)
+        height: 75%
+
+      img
+        width: 100%
+        height: 90%
+        object-fit: cover
+
+        @media (max-aspect-ratio: 2/3)
+          height: 80%
+
+      h2
+        position: absolute
+        left: 50%
+        top: 40%
+        transform: translate(-50%, -50%)
+        font-size: 3em
+        z-index: 1
+        text-shadow: 0px 0px 10px black
+
+        @media (max-aspect-ratio: 3/2)
+          font-size: 2em
+
+        @media (max-aspect-ratio: 1/2)
+          font-size: 5em
+
+        @media (max-aspect-ratio: 2/3)
+          top: 30%
+
+      .container
+        display: block
+        position: absolute
+        width: 100%
+        height: 100%
+        left: 50%
+        transform: translateX(-50%)
+        cursor: pointer
+        font-size: 22px
+        -webkit-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+        div
+          position: absolute
+          top: 100%
+          cursor: pointer
+          transform: translate(-50%, -100%)
+          width: 100%
+          height: 10%
+          background: rgba(255, 0, 0, 0.75)
+
+          @media (max-aspect-ratio: 2/3)
+            height: 20%
+
+          input
+            position: absolute
+            opacity: 0
+            cursor: pointer
+            height: 0
+            width: 0
+
+          .checkmark
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            height: 25px
+            width: 25px
+            background-color: #eee
+
+            @media (max-aspect-ratio: 1/2)
+              height: 40px
+              width: 40px
+
+      .container:hover input ~ .checkmark
+        background-color: #ccc
+
+      .container input:checked ~ .checkmark
+        background-color: #2196F3
+
+      .checkmark:after
+        content: ""
+        position: absolute
+        display: none
+
+      .container input:checked ~ .checkmark:after
+        display: block
+
+      .container .checkmark:after
+        left: 9px
+        top: 5px
+        width: 5px
+        height: 10px
+        border: solid white
+        border-width: 0 3px 3px 0
+        -webkit-transform: rotate(45deg)
+        -ms-transform: rotate(45deg)
+        transform: rotate(45deg)
+
+        @media (max-aspect-ratio: 1/2)
+          left: 14.4px
+          top: 8px
+          width: 8px
+          height: 16px
+          border-width: 0 4.8px 4.8px 0
+
+.sliders
+  display: none
+
+  h1
+    @media (max-aspect-ratio: 4/3)
+      top: 15%
+
+    @media (max-aspect-ratio: 4/5)
+      top: 20%
+
+    @media (max-aspect-ratio: 2/3)
+      top: 27.5%
+
+  div
+    @media (max-aspect-ratio: 4/3)
+      height: 40%
+
+    @media (max-aspect-ratio: 4/5)
+      height: 30%
+
+    @media (max-aspect-ratio: 2/3)
+      height: 25%
+
+    .slider-options
+      position: relative
+      left: 25%
+      top: 50%
+      width: 50%
+      height: 100%
+      padding: 25px
+
+      img
+        width: 100%
+        height: 100%
+        object-fit: cover
+
+      .shadow
+        position: absolute
+        top: 50%
+        width: 93%
+        height: 95%
+        box-shadow: inset 0px 0px 15px 15px black
+        z-index: 2
+
+      h2
+        position: absolute
+        left: 50%
+        top: 30%
+        transform: translate(-50%, -50%)
+        font-size: 3em
+
+        @media (max-aspect-ratio: 1/2)
+          top: 35%
+
+    .slidecontainer
+      position: absolute
+      left: 50%
+      top: 85%
+      width: 80%
+
+      .slider
+        -webkit-appearance: none
+        appearance: none
+        width: 100%
+        height: 15px
+        border-radius: 5px
+        background: #d3d3d3
+        outline: none
+        opacity: 0.7
+        -webkit-transition: .2s
+        transition: opacity .2s
+
+      .slider:hover
+        opacity: 1
+
+      .slider::-webkit-slider-thumb
+        -webkit-appearance: none
+        appearance: none
+        width: 25px
+        height: 25px
+        border-radius: 50%
+        background: red
+        cursor: pointer
+
+      .slider::-moz-range-thumb
+        width: 25px
+        height: 25px
+        border-radius: 50%
+        background: red
+        cursor: pointer
+
+
+#case-size
+  display: none
+
+  h1
+    @media (max-aspect-ratio: 4/3)
+      top: 15%
+
+    @media (max-aspect-ratio: 4/5)
+      top: 20%
+
+    @media (max-aspect-ratio: 2/3)
+      top: 27.5%
+
+    @media (max-aspect-ratio: 3/5)
+      top: 20%
+
+  div
+    @media (max-aspect-ratio: 3/5)
+      display: grid
+      grid-template-columns: 1fr 1fr
+
+    .options
+      position: relative
+      left: 0%
+      transform: translate(0, -50%)
+      width: 100%
+      height: 100%
+      margin: 20px
+      border: 5px solid rgba(255, 0, 0, 0.75)
+
+      @media (max-aspect-ratio: 4/3)
+        height: 75%
+
+      @media (max-aspect-ratio: 10/9)
+        height: 65%
+
+      @media (max-aspect-ratio: 3/4)
+        height: 50%
+
+      @media (max-aspect-ratio: 3/5)
+        height: 75%
+        width: 75%
+        margin: auto
+
+      img
+        width: 100%
+        height: 90%
+        object-fit: cover
+        opacity: 0.9
+
+        @media (max-aspect-ratio: 3/5)
+          width: 200%
+
+      h2
+        position: absolute
+        left: 50%
+        top: 40%
+        transform: translate(-50%, -50%)
+        font-size: 3em
+        text-shadow: 0px 0px 10px black
+        text-align: center
+
+      .container
+        display: block
+        position: absolute
+        width: 100%
+        height: 100%
+        left: 50%
+        transform: translateX(-50%)
+        cursor: pointer
+        font-size: 22px
+        -webkit-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+        div
+          position: absolute
+          top: 100%
+          transform: translate(-50%, -100%)
+          width: 100%
+          height: 10%
+          background: rgba(255, 0, 0, 0.75)
+
+          input
+            position: absolute
+            opacity: 0
+            cursor: pointer
+            height: 0
+            width: 0
+
+          .checkmark
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            height: 25px
+            width: 25px
+            background-color: #eee
+            border-radius: 50%
+
+      .container:hover input ~ .checkmark
+        background-color: #ccc
+
+      .container input:checked ~ .checkmark
+        background-color: #2196F3
+
+      .checkmark:after
+        content: ""
+        position: absolute
+        display: none
+
+      .container input:checked ~ .checkmark:after
+        display: block
+
+      .container .checkmark:after
+        left: 9px
+        top: 9px
+        width: 8px
+        height: 8px
+        border-radius: 50%
+        background: white
+
+
+#main-color
+  display: none
+
+  h1
+    @media (max-aspect-ratio: 2/3)
+      top: 20%
+
+    @media (max-aspect-ratio: 3/5)
+      top: 25%
+
+  div
+    width: 67.5%
+
+    .options
+      position: relative
+      left: 0%
+      transform: translate(0, -50%)
+      width: 100%
+      height: 110%
+      margin: 20px
+      border: 5px solid rgba(255, 0, 0, 0.75)
+
+      @media (max-aspect-ratio: 2/3)
+        height: 75%
+
+      @media (max-aspect-ratio: 3/5)
+        height: 50%
+
+      img
+        width: 100%
+        height: 90%
+        object-fit: cover
+
+      #black
+        opacity: 0.9
+
+      #white
+        opacity: 0.75
+
+      h2
+        position: absolute
+        left: 50%
+        top: 40%
+        transform: translate(-50%, -50%)
+        font-size: 3em
+        z-index: 1
+        text-shadow: 0px 0px 10px black
+        text-align: center
+
+      .container
+        display: block
+        position: absolute
+        width: 100%
+        height: 100%
+        left: 50%
+        transform: translateX(-50%)
+        cursor: pointer
+        font-size: 22px
+        -webkit-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+        div
+          position: absolute
+          top: 100%
+          transform: translate(-50%, -100%)
+          width: 100%
+          height: 10%
+          background: rgba(255, 0, 0, 0.75)
+
+          input
+            position: absolute
+            opacity: 0
+            cursor: pointer
+            height: 0
+            width: 0
+
+          .checkmark
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            height: 25px
+            width: 25px
+            background-color: #eee
+            border-radius: 50%
+
+      .container:hover input ~ .checkmark
+        background-color: #ccc
+
+      .container input:checked ~ .checkmark
+        background-color: #2196F3
+
+      .checkmark:after
+        content: ""
+        position: absolute
+        display: none
+
+      .container input:checked ~ .checkmark:after
+        display: block
+
+      .container .checkmark:after
+        left: 9px
+        top: 9px
+        width: 8px
+        height: 8px
+        border-radius: 50%
+        background: white
+
+
+#second-color
+  display: none
+
+  h1
+    top: 10%
+
+    @media (max-aspect-ratio: 2/3)
+      top: 20%
+
+    @media (max-aspect-ratio: 2/5)
+      top: 25%
+
+  div
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    top: 47.5%
+    width: 50%
+    height: 75%
+
+    @media (max-aspect-ratio: 3/2)
+      width: 75%
+
+    @media (max-aspect-ratio: 1/1)
+      width: 90%
+
+    @media (max-aspect-ratio: 2/3)
+      height: 50%
+
+    @media (max-aspect-ratio: 2/5)
+      height: 40%
+
+    .options
+      width: 100%
+      height: 100%
+
+      @media (max-aspect-ratio: 5/6)
+        width: 75%
+        height: 75%
+
+      img
+        position: absolute
+        left: 50%
+        transform: translate(-50%)
+        height: 100%
+        object-fit: cover
+
+      i
+        position: absolute
+        left: 50%
+        top: 50%
+        transform:  translate(-50%, -50%)
+        font-size: 5em
+        text-shadow: 0px 0px 5px black
+
+
+#special
+  display: none
+
+  h1
+    @media (max-aspect-ratio: 1/2)
+      top: 20%
+
+  img
+    position: absolute
+    object-fit: cover
+    width: 100%
+    height: 100vh
+    opacity: 0.75
+
+  #container-left
+    display: flex
+    position: absolute
+    flex-direction: column
+    top: 55%
+    left: 30%
+    width: 40%
+    height: 55%
+
+    @media (max-aspect-ratio: 2/3)
+      top: 50%
+      left: 50%
+
+    @media (max-aspect-ratio: 1/2)
+      top: 55%
+
+    .game-or-budget
+      position: relative
+      top: 0
+      transform: translateX(-50%)
+      width: 100%
+      height: 25%
+
+      @media (max-aspect-ratio: 1/2)
+        top: 5%
+
+      h3
+        position: relative
+        width: 50%
+        left: 50%
+        transform: translateX(-50%)
+        text-align: center
+        font-size: 1.25em
+        text-shadow: 0px 0px 10px black
+
+        @media (max-aspect-ratio: 6/5)
+          top: -15%
+
+        @media (max-aspect-ratio: 1/2)
+          font-size: 1.75em
+          top: -25%
+
+      div
+        display: flex
+        position: absolute
+        top: 100px
+        left: 50%
+        transform: translateX(-50%)
+        width: auto
+        color: black
+
+        @media (max-aspect-ratio: 1/2)
+          top: 150px
+
+        .container
+          display: block
+          position: relative
+          padding-left: 100px
+          cursor: pointer
+          font-size: 22px
+          -webkit-user-select: none
+          -moz-user-select: none
+          -ms-user-select: none
+          user-select: none
+
+        .container input
+          position: absolute
+          opacity: 0
+          cursor: pointer
+          height: 0
+          width: 0
+
+        .checkmark
+          position: absolute
+          top: 0
+          left: 0
+          height: 40px
+          width: 100px
+          background-color: #eee
+          text-align: center
+          padding-top: 20px
+          font-size: 0.9em
+
+        .container:hover input ~ .checkmark
+          background-color: #ccc
+
+        .container input:checked ~ .checkmark
+          background-color: #2196F3
+
+        .checkmark:after
+          content: ""
+          position: absolute
+          display: none
+
+        .container input:checked ~ .checkmark:after
+          display: block
+
+
+    #game
+      display: none
+      position: relative
+      width: 80%
+      height: 200px
+      left: 50%
+      top: 25px
+      transform: translate(-50%, 0)
+      margin-top: 50px
+      background: white
+      color: black
+      border-radius: 10px
+
+      @media (max-aspect-ratio: 2/3)
+        top: -50px
+        width: 150%
+
+      #game-name
+        position: absolute
+        height: 50px
+        width: 175px
+        top: 30px
+        left: 50px
+        border: none
+        border-bottom: 1px dashed black
+        padding-left: 10px
+        font-size: 1.15em
+
+      #game-name:focus
+        outline: none
+
+      .resolution
+        display: flex
+        position: absolute
+        width: 270px
+        height: 55px
+        top: 60px
+        left: 70%
+
+      .fps
+        margin: 0px
+        display: flex
+        position: absolute
+        width: 180px
+        height: 55px
+        top: 140px
+        left: 140px
+
+      .setting
+        display: flex
+        position: absolute
+        width: 270px
+        height: 55px
+        top: 140px
+        left: 70%
+
+      .container
+        display: block
+        position: relative
+        padding-left: 90px
+        cursor: pointer
+        font-size: 22px
+        -webkit-user-select: none
+        -moz-user-select: none
+        -ms-user-select: none
+        user-select: none
+
+      .container input
+        position: absolute
+        opacity: 0
+        cursor: pointer
+        height: 0
+        width: 0
+
+      .checkmark
+        position: absolute
+        top: 0
+        left: 0
+        height: 37.5px
+        width: 90px
+        background-color: #eee
+        text-align: center
+        padding-top: 18px
+        font-size: 0.9em
+
+      .container:hover input ~ .checkmark
+        background-color: #ccc
+
+      .container input:checked ~ .checkmark
+        background-color: #2196F3
+
+      .checkmark:after
+        content: ""
+        position: absolute
+        display: none
+
+      .container input:checked ~ .checkmark:after
+        display: block
+
+    #budget
+      position: relative
+      width: 80%
+      height: 200px
+      left: 50%
+      top: 25px
+      transform: translate(-50%, 0)
+      margin-top: 50px
+      background: white
+      color: black
+      border-radius: 10px
+
+      @media (max-aspect-ratio: 2/3)
+        top: -50px
+        width: 100%
+
+      h3
+        position: relative
+        top: 15px
+        width: 75%
+        left: 50%
+        transform: translateX(-50%)
+        text-align: center
+        font-size: 1.4em
+
+      .currencyinput
+        position: absolute
+        top: 92.5px
+        left: 50%
+        transform: translateX(-50%)
+        text-align: center
+        font-size: 1.4em
+        padding: 10px 10px 10px 25px
+        border: 2px solid black
+
+        input
+          font-size: 0.9em
+          padding-left: 2.5px
+          width: 65px
+          border: none
+
+        input:focus
+          outline: none
+
+  #container-right
+    position: absolute
+    top: 55%
+    left: 70%
+    width: 40%
+    height: 55%
+
+    @media (max-aspect-ratio: 2/3)
+      top: 80%
+      left: 50%
+
+    h3
+      position: relative
+      height: 50px
+      left: 50%
+      transform: translateX(-50%)
+      padding-top: 50px
+      font-size: 1.5em
+      text-align: center
+      text-shadow: 0px 0px 10px black
+
+    textarea
+      position: absolute
+      width: 65%
+      height: 55%
+      top: 150px
+      left: 50%
+      transform: translateX(-50%)
+      border-radius: 10px
+      font-size: 1.25em
+      padding: 10px 15px
+      resize: none
+
+      @media (max-aspect-ratio: 2/3)
+        height: 35%
+        width: 100%
+
+    textarea:focus
+      outline: none
+
+
+#contact
+  display: none
+
+  img
+    object-fit: cover
+    width: 100%
+    height: 100vh
+    margin-bottom: -3px
+
+  h1
+    position: absolute
+    left: 50%
+    transform: translateX(-50%)
+    top: 20%
+    z-index: 1
+
+    @media (max-aspect-ratio: 2/3)
+      top: 25%
+
+    @media (max-aspect-ratio: 1/2)
+      top: 35%
+
+  .user
+    position: absolute
+    display: flex
+    flex-direction: column
+    width: 500px
+    height: 500px
+    left: 50%
+    top: 40%
+    transform: translate(-50%, -50%)
+
+    @media (max-aspect-ratio: 2/3)
+      top: 55%
+
+    @media (max-aspect-ratio: 1/2)
+      transform: scale(1.5)
+      left: 25%
+      top: 50%
+
+    div
+      position: relative
+      width: 100%
+      height: 100px
+
+      .icon-div
+        position: relative
+        width: 20%
+        height: 72.5px
+        left: 0%
+        top: 50%
+        transform: translateY(-50%)
+        background: dimgrey
+        opacity: 0.9
+        border-radius: 5px 0px 0px 5px
+
+        i
+          position: absolute
+          left: 50%
+          top: 50%
+          transform: translate(-50%, -50%)
+          font-size: 1.25em
+          color: white
+
+      input
+        position: absolute
+        width: 375px
+        height: 71px
+        top: 13px
+        left: 20%
+        border: none
+        padding-left: 25px
+        font-size: 1.25em
+        opacity: 0.9
+        border-radius: 0px 5px 5px 0px
+        margin-top: 1px
+
+      input:focus
+        outline: none
+
+      #first-name
+        width: 162.5px
+        border-radius: 0px
+
+      #last-name
+        position: absolute
+        width: 187.5px
+        left: 287.5px
+
+      #send
+        position: relative
+        height: 70px
+        width: 225px
+        top: 75px
+        left: 50%
+        transform: translate(-50%, -50%)
+        text-decoration: none
+        color: white
+        border: 2px solid white
+        font-size: 1.6em
+        background: none
+        cursor: pointer
+
+#left
+  display: none
+  position: fixed
+  left: 70px
+  bottom: 50px
+  font-size: 7em
+  cursor: pointer
+
+#right
+  position: fixed
+  right: 70px
+  bottom: 50px
+  font-size: 7em
+  cursor: pointer
