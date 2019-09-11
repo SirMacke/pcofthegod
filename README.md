@@ -1,2 +1,2 @@
-#PC of the God
+# PC of the God
 This readme file really needs to be filled in a bit more...
