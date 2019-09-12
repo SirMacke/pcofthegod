@@ -2,6 +2,8 @@ const express = require('express');
 const main = require('../routes/main');
 const plan = require('../routes/plan');
 const auth = require('../routes/auth');
+const customer = require('../routes/customer');
+const admin = require('../routes/admin');
 
 module.exports = function(app) {
   app.use(express.json());
@@ -10,4 +12,6 @@ module.exports = function(app) {
   app.use('/api/main', main);
   app.use('/api/plan', plan);
   app.use('/api/login', auth);
+  app.use('/api/customer', customer);
+  app.use('/api/admin', admin);
 }
