@@ -10,12 +10,19 @@ body
     background: black
     margin: 0
 
+    img
+      position: absolute
+      object-fit: cover
+      height: 100%
+      width: 100vw
+
     h1
       position: relative
       text-align: center
       margin-top: 0
       top: 12.5%
-      font-size: 3em
+      font-size: 4em
+      font-family: 'Russo One', sans-serif
 
     div
       position: relative
@@ -60,6 +67,7 @@ body
       a
         text-decoration: none
         padding: 5px 20px
+        cursor: pointer
 
         li
           position: relative
@@ -70,13 +78,115 @@ body
           text-align: center
 
         #status-button
-          width: 175px
+          width: 150px
           border: 2px solid white
           padding: 12.5px 20px
 
   #status
-    display: none
 
+    img
+      opacity: 0.75
+
+    .div-container
+      display: grid
+      grid-template-columns: repeat(4, 1fr)
+      position: relative
+      width: 75%
+      height: 60%
+      left: 50%
+      top: 45%
+      transform: translate(-50%, -50%)
+
+      .text-container
+        position: relative
+        width: 200px
+        height: 125px
+        left: 25%
+        top: 25%
+        margin: 25px auto
+        opacity: 0.95
+        text-align: center
+
+        p
+          display: table-cell
+          position: absolute
+          width: 82.5%
+          height: 75%
+          left: 50%
+          top: 50%
+          transform: translate(-50%, -50%)
+          color: white
+          font-size: 1.25em
+          text-shadow: 0px 0px 25px black
+          z-index: 2
+
+        i
+          position: absolute
+          left: 20%
+          top: 50%
+          transform: translateY(-50%)
+          font-size: 7.5em
+          opacity: 0.5
+          z-index: 1
+
+    .arrow-container
+      display: flex
+      position: absolute
+      width: 75%
+      height: 100%
+      left: 50%
+      top: 50%
+
+      .top
+        display: flex
+        position: absolute
+        width: 100%
+        height: auto
+        left: 50%
+        top: 12%
+        transform: translate(-50%, -50%)
+
+        i
+          font-size: 2em
+          margin: 0px auto
+
+      .middle
+        display: flex
+        position: absolute
+        width: 100%
+        height: auto
+        left: 50%
+        top: 46%
+        transform: translate(-50%, -50%)
+
+        i
+          font-size: 2em
+          margin: 0px auto
+
+      .bottom
+        display: flex
+        position: absolute
+        width: 100%
+        height: auto
+        left: 50%
+        top: 79%
+        transform: translate(-50%, -50%)
+
+        i
+          font-size: 2em
+          margin: 0px auto
+
+      #down1
+        position: absolute
+        right: -5px
+        top: 27%
+        font-size: 2em
+
+      #down2
+        position: absolute
+        left: -25px
+        top: 59%
+        font-size: 2em
   #plan
     display: none
 
@@ -87,6 +197,7 @@ body
     display: none
 
   #contact
+    display: none
 
     .contact
       position: absolute
@@ -172,3 +283,7 @@ body
       transform: translate(-50%, -50%)
       font-family: 'Russo One', sans-serif
       font-size: 6em
+
+
+  #buy
+    display: none

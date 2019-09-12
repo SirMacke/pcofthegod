@@ -10,39 +10,112 @@
   <body>
     <nav>
       <div class="logo">
-        <a href="#home" rel="internal">
+        <a href="#status" rel="internal">
           <p>Pcofthegod</p>
         </a>
       </div>
       <ul class="nav-links">
-        <a href="#plan" rel="internal">
-          <li>Your Plan</li>
+        <a onclick="pageViewer('status')">
+          <li>Computer Status</li>
         </a>
-        <a href="#parts" rel="internal">
-          <li>Computer Parts</li>
+        <a onclick="pageViewer('plan')">
+          <li>Plan</li>
         </a>
-        <a href="#price" rel="internal">
-          <li>Price and Buy</li>
+        <a onclick="pageViewer('parts')">
+          <li>Parts</li>
         </a>
-        <a href="#contact" rel="internal">
+        <a onclick="pageViewer('price')">
+          <li>Price</li>
+        </a>
+        <a onclick="pageViewer('contact')">
           <li>Contact</li>
         </a>
-        <a href="#status" rel="internal">
-          <li id="status-button">Computer Status</li>
+        <a onclick="pageViewer('buy')">
+          <li id="status-button">Buy Your PC</li>
         </a>
       </ul>
     </nav>
     <section id="status">
-
+      <img src="/./images/red gaming setup5.jpg" alt="Red gaming setup">
+      <h1>Computer Status</h1>
+      <div class="div-container">
+        <div class="text-container">
+          <p>Read about us, how it works and pricing</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>Plan your computer</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>Send in your plan and create an account</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>Your computer parts will be selected</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>buy your computer</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>Message us for adjustments if necessary</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>Login to your account to view your parts & price</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>You'll receive an email when your parts are selected</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>We order your parts</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>We build your computer and get it up running</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>Ships the computer</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="text-container">
+          <p>You receive your custom built computer</p>
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="arrow-container">
+          <div class="top">
+            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="middle">
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-left"></i>
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="bottom">
+            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <i class="fas fa-chevron-down" id="down1"></i>
+          <i class="fas fa-chevron-down" id="down2"></i>
+        </div>
+      </div>
     </section>
     <section id="plan">
-
+      <h1>Your Plan</h1>
     </section>
     <section id="parts">
-
+      <h1>The Parts</h1>
     </section>
     <section id="price">
-
+      <h1>The Price</h1>
     </section>
     <section id="contact">
       <div class="contact">
@@ -68,6 +141,9 @@
         </div>
       </div>
     </section>
+    <section id="buy">
+
+    </section>
   </body>
-  <script type="text/javascript" scr="/./scripts/customer.js"></script>
+  <script type="text/javascript" src="/./scripts/customer.js"></script>
 </html>
