@@ -88,8 +88,8 @@ body
       opacity: 0.75
 
     .div-container
-      display: grid
-      grid-template-columns: repeat(4, 1fr)
+      display: flex
+      flex-direction: column
       position: relative
       width: 75%
       height: 60%
@@ -101,8 +101,7 @@ body
         position: relative
         width: 200px
         height: 125px
-        left: 25%
-        top: 25%
+        transform: translate(0%, 0%)
         margin: 25px auto
         opacity: 0.95
         text-align: center
@@ -121,13 +120,42 @@ body
           z-index: 2
 
         i
+          display: none
           position: absolute
           left: 20%
           top: 50%
           transform: translateY(-50%)
-          font-size: 7.5em
+          font-size: 8em
           opacity: 0.5
           z-index: 1
+
+      .top
+        position: relative
+        width: 95%
+        left: 50%
+        top: 15%
+        transform: translate(-50%, -50%)
+        display: flex
+        flex-direction: row
+
+      .middle
+        position: relative
+        width: 95%
+        left: 50%
+        top: 15%
+        transform: translate(-50%, -50%)
+        display: flex
+        flex-direction: row-reverse
+
+      .bottom
+        position: relative
+        width: 95%
+        left: 50%
+        top: 15%
+        transform: translate(-50%, -50%)
+        display: flex
+        flex-direction: row
+
 
     .arrow-container
       display: flex
@@ -178,23 +206,31 @@ body
 
       #down1
         position: absolute
-        right: -5px
+        right: 20px
         top: 27%
         font-size: 2em
 
       #down2
         position: absolute
-        left: -25px
+        left: 10px
         top: 59%
         font-size: 2em
-  #plan
+
+
+  #planAndParts
     display: none
 
-  #parts
-    display: none
+    #plan
 
-  #price
-    display: none
+
+    #parts
+      
+
+    #images
+
+
+    .page
+
 
   #contact
     display: none

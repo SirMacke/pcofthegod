@@ -18,14 +18,8 @@
         <a onclick="pageViewer('status')">
           <li>Computer Status</li>
         </a>
-        <a onclick="pageViewer('plan')">
-          <li>Plan</li>
-        </a>
-        <a onclick="pageViewer('parts')">
-          <li>Parts</li>
-        </a>
-        <a onclick="pageViewer('price')">
-          <li>Price</li>
+        <a onclick="pageViewer('planAndParts')">
+          <li>Plan and Parts</li>
         </a>
         <a onclick="pageViewer('contact')">
           <li>Contact</li>
@@ -39,53 +33,61 @@
       <img src="/./images/red gaming setup5.jpg" alt="Red gaming setup">
       <h1>Computer Status</h1>
       <div class="div-container">
-        <div class="text-container">
-          <p>Read about us, how it works and pricing</p>
-          <i class="fas fa-check"></i>
+        <div class="top">
+          <div class="text-container">
+            <p>Read about us, how it works and pricing</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>Plan your computer</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>Send in your plan and create an account</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>Your computer parts will be selected</p>
+            <i class="fas fa-check"></i>
+          </div>
         </div>
-        <div class="text-container">
-          <p>Plan your computer</p>
-          <i class="fas fa-check"></i>
+
+        <div class="middle">
+          <div class="text-container">
+            <p>You'll receive an email when your parts are selected</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>Login to your account to view your parts & price</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>Message us for adjustments if necessary</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>You buy your computer</p>
+            <i class="fas fa-check"></i>
+          </div>
         </div>
-        <div class="text-container">
-          <p>Send in your plan and create an account</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>Your computer parts will be selected</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>buy your computer</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>Message us for adjustments if necessary</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>Login to your account to view your parts & price</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>You'll receive an email when your parts are selected</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>We order your parts</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>We build your computer and get it up running</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>Ships the computer</p>
-          <i class="fas fa-check"></i>
-        </div>
-        <div class="text-container">
-          <p>You receive your custom built computer</p>
-          <i class="fas fa-check"></i>
+
+        <div class="bottom">
+          <div class="text-container">
+            <p>We order your parts</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>We build your computer and get it up running</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>Ships the computer</p>
+            <i class="fas fa-check"></i>
+          </div>
+          <div class="text-container">
+            <p>You receive your custom built computer</p>
+            <i class="fas fa-check"></i>
+          </div>
         </div>
         <div class="arrow-container">
           <div class="top">
@@ -108,14 +110,66 @@
         </div>
       </div>
     </section>
-    <section id="plan">
-      <h1>Your Plan</h1>
-    </section>
-    <section id="parts">
-      <h1>The Parts</h1>
-    </section>
-    <section id="price">
-      <h1>The Price</h1>
+    <section id="planAndParts">
+      <div class="page" id="plan">
+        <h1>Plan</h1>
+        <ul>
+          <li>
+            <h3>Usecases:</h3>
+            <p>Streaming, Gaming</p>
+          </li>
+          <li>
+            <h3>You choosed:<h3>
+            <p>Performance over Silence</p>
+          </li>
+          <li>
+            <h3>You choosed:<h3>
+            <p>Attractivness over Performance</p>
+          </li>
+          <li>
+            <h3>Case size:</h3>
+            <p>Mid Tower</p>
+          </li>
+          <li>
+            <h3>Main color:</h3>
+            <p>Black</p>
+          </li>
+          <li>
+            <h3>Second color:</h3>
+            <p>RGB</p>
+          </li>
+          <li>
+            <h3>Budget:</h3>
+            <p>$1500</p>
+          </li>
+          <li>
+            <h3>Game:</h3>
+            <p>Fortnite</p>
+          </li>
+          <li>
+            <h3>Resolution:</h3>
+            <p>1080p</p>
+          </li>
+          <li>
+            <h3>FPS:</h3>
+            <p>120</p>
+          </li>
+          <li>
+            <h3>Setting:</h3>
+            <p>High</p>
+          </li>
+          <li>
+            <h3>Comment:</h3>
+            <p>Nothing</p>
+          </li>
+        </ul>
+      </div>
+      <div class="page" id="parts">
+        <h1>Parts</h1>
+      </div>
+      <div class="page" id="images">
+        <h1>Images</h1>
+      </div>
     </section>
     <section id="contact">
       <div class="contact">
@@ -142,7 +196,7 @@
       </div>
     </section>
     <section id="buy">
-
+      <h1>Buy Your Computer</h1>
     </section>
   </body>
   <script type="text/javascript" src="/./scripts/customer.js"></script>
