@@ -28,7 +28,6 @@ body
       position: relative
       width: 75%
       height: 50%
-      transform: translate(-50%, -50%)
 
 
   nav
@@ -83,6 +82,7 @@ body
           padding: 12.5px 20px
 
   #status
+    display: none
 
     img
       opacity: 0.75
@@ -160,10 +160,10 @@ body
     .arrow-container
       display: flex
       position: absolute
-      width: 75%
+      width: 70%
       height: 100%
-      left: 50%
-      top: 50%
+      left: 15%
+      top: 0%
 
       .top
         display: flex
@@ -206,30 +206,52 @@ body
 
       #down1
         position: absolute
-        right: 20px
+        right: -22.5px
         top: 27%
         font-size: 2em
 
       #down2
         position: absolute
-        left: 10px
+        left: -22.5px
         top: 59%
         font-size: 2em
 
 
   #planAndParts
-    display: none
+    display: flex
+    width: 100vw
+    overflow: hidden
 
     #plan
-
+      width: 100vw
+      left: 0%
 
     #parts
-      
+      left: 100%
 
     #images
-
+      left: 150%
 
     .page
+      position: absolute
+      float: left
+      width: 50vw
+      height: 100%
+
+    #left
+      display: none
+      position: fixed
+      top: 55%
+      left: 5%
+      transform: translateY(-50%)
+      font-size: 5em
+
+    #right
+      position: fixed
+      top: 55%
+      right: 5%
+      transform: translate(-50%, -50%)
+      font-size: 5em
 
 
   #contact
