@@ -1,5 +1,7 @@
 var firstPage = document.getElementById('status');
 
+var pageNumber = 0
+
 function pageViewer(page) {
   firstPage.style.display = 'none';
   firstPage = document.getElementById(page);
@@ -12,8 +14,17 @@ function pageViewer(page) {
   if (page == 'planAndParts') {
     openPage.style.display = 'flex';
 
-    leftArrow.style.display = 'block';
-    rightArrow.style.display = 'block';
+    if (pageNumber == 0) {
+      leftArrow.style.display = 'none'
+    } else {
+      leftArrow.style.display = 'block'
+    }
+
+    if (pageNumber == 2) {
+      rightArrow.style.display = 'none'
+    } else {
+      rightArrow.style.display = 'block'
+    }
   } else {
     openPage.style.display = 'block';
 
@@ -34,11 +45,19 @@ function statusCheck() {
 
 statusCheck()
 
-var pageNumber = 0
-
 function pageSelection(num) {
   // var pages = ['plan', 'parts', 'images'];
   var pages = document.getElementsByClassName('page');
+
+  var leftArrow = document.getElementById('pageLeft');
+  var rightArrow = document.getElementById('pageRight');
+
+  leftArrow.disabled = true;
+  rightArrow.disabled = true;
+  setTimeout(function() {
+    leftArrow.disabled = false;
+    rightArrow.disabled = false;
+  }, 750);
 
   if (num == +1) {
     if (pageNumber == 0) {
@@ -129,9 +148,6 @@ function pageSelection(num) {
     pageNumber--;
   }
 
-  var leftArrow = document.getElementById('left');
-  var rightArrow = document.getElementById('right');
-
   if (pageNumber == 0) {
     leftArrow.style.display = 'none'
   } else {
@@ -143,4 +159,32 @@ function pageSelection(num) {
   } else {
     rightArrow.style.display = 'block'
   }
+}
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].style.background = 'none'
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].style.background = 'dimgrey';
 }

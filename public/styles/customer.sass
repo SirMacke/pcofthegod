@@ -82,7 +82,6 @@ body
           padding: 12.5px 20px
 
   #status
-    display: none
 
     img
       opacity: 0.75
@@ -218,9 +217,14 @@ body
 
 
   #planAndParts
-    display: flex
+    display: none
     width: 100vw
     overflow: hidden
+
+    img
+      height: 100%
+      object-fit: cover
+      opacity: 0.6
 
     #plan
       width: 100vw
@@ -229,8 +233,84 @@ body
     #parts
       left: 100%
 
+      ul
+        li
+          width: 525px
+
     #images
       left: 150%
+
+      div
+        position: absolute
+        width: 650px
+        height: 550px
+        left: 50%
+        top: 55%
+        transform: translate(-50%, -50%)
+        background: white
+        box-shadow: 0px 0px 25px black
+
+        .mySlides
+          position: absolute
+          height: 90%
+          width: 75%
+          left: 50%
+          top: 0%
+          transform: translateX(-50%)
+          object-fit: cover
+          opacity: 1
+          z-index: 1
+          box-shadow: none
+
+        div
+          position: absolute
+          width: 100%
+          height: 10%
+          top: 90%
+          transform: translateX(-50%)
+          color: black
+          box-shadow: none
+          z-index: 2
+
+          i
+            position: absolute
+            top: 0%
+            cursor: pointer
+            font-size: 2em
+
+          #imageLeft
+            left: 5%
+            transition: 0.1s
+
+          #imageRight
+            right: 5%
+            transition: 0.1s
+
+          #imageLeft:hover
+            opacity: 0.75
+
+          #imageRight:hover
+            opacity: 0.75
+
+          div
+            position: absolute
+            width: auto
+            height: 50px
+            left: 50%
+            top: -15%
+
+            span
+              position: relative
+              top: 50%
+              transform: translateY(-50%)
+              float: left
+              width: 15px
+              height: 15px
+              margin: 0px 10px
+              background: none
+              border: 1px solid dimgrey
+              border-radius: 50%
+
 
     .page
       position: absolute
@@ -238,21 +318,65 @@ body
       width: 50vw
       height: 100%
 
-    #left
-      display: none
+      h1
+        text-shadow: 0px 0px 25px black
+
+      ul
+        position: absolute
+        width: auto
+        height: auto
+        left: 50%
+        top: 25%
+        transform: translateX(-50%)
+
+        li
+          display: flex
+          height: 75px
+          width: 500px
+          margin: -25px 0px
+          text-shadow: 0px 0px 15px black
+
+          h3
+            font-size: 1.5em
+            height: auto
+            width: auto
+
+          p
+            position: relative
+            left: 25px
+            top: 8px
+            font-size: 1.25em
+
+    .pageSelectors
       position: fixed
       top: 55%
-      left: 5%
       transform: translateY(-50%)
       font-size: 5em
+      cursor: pointer
+      background: none
+      border: none
+      color: white
 
-    #right
-      position: fixed
-      top: 55%
+    .pageSelectors:active
+      color: white
+      outline: none
+
+    #pageLeft
+      display: none
+      left: 5%
+      transition: 0.3s
+
+    #pageRight
       right: 5%
-      transform: translate(-50%, -50%)
-      font-size: 5em
+      transition: 0.3s
 
+    #pageLeft:hover
+      color: dimgrey
+      opacity: 0.75
+
+    #pageRight:hover
+      color: dimgrey
+      opacity: 0.75
 
   #contact
     display: none
