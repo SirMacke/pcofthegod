@@ -82,7 +82,7 @@ function validateUser(user) {
     sliderTwo: Joi.allow(),
     case: Joi.allow(),
     mainColor: Joi.allow(),
-    //secondColor: Joi.allow(),
+    secondColor: Joi.allow(),
     budget: Joi.allow(),
     name: Joi.allow(),
     resolution: Joi.allow(),

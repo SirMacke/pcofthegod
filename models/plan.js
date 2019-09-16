@@ -41,12 +41,12 @@ const Plan = mongoose.model('Plan', new mongoose.Schema({
     minlength: 3,
     maxlength: 30
   },
-  // secondColor: {
-  //   type: Number,
-  //   required: true,
-  //   min: 0,
-  //   max: 8
-  // },
+  secondColor: {
+    type: String,
+    required: true,
+    minlength: 3,
+    maxlength: 30
+  },
   budget: {
     type: Number,
     min: 500,
@@ -91,7 +91,7 @@ function validatePlan(plan) {
     sliderTwo: Joi.number().min(0).max(100).required(),
     case: Joi.string().min(3).max(30).required(),
     mainColor: Joi.string().min(3).max(30).required(),
-    //secondColor: Joi.number().min(0).max(8).required(),
+    secondColor: Joi.string().min(3).max(30),
     budget: Joi.number().min(500).max(10000).allow(''),
     name: Joi.string().allow(''),
     resolution: Joi.string(),

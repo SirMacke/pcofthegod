@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', [validate(validatePlan), validate(validateUser)], async (req, res) => {
-  let plan = new Plan(_.pick(req.body, ['streaming', 'gaming', 'productivity', 'sliderOne', 'sliderTwo', 'case', 'mainColor', 'budget', 'name', 'resolution', 'fps', 'setting', 'comment']));
+  let plan = new Plan(_.pick(req.body, ['streaming', 'gaming', 'productivity', 'sliderOne', 'sliderTwo', 'case', 'mainColor', 'secondColor', 'budget', 'name', 'resolution', 'fps', 'setting', 'comment']));
   await plan.save();
 
 
@@ -34,8 +34,8 @@ router.post('/', [validate(validatePlan), validate(validateUser)], async (req, r
   user.password = await bcrypt.hash(user.password, salt);
   await user.save();
 
-  const token = user.generateAuthToken(user);
-  res.header('x-auth-token', token).sendFile('customer.html', { root: './public' });
+  const token = user.generateAuthToken();
+  res.cookie('tokenId', token, { signed: true }).redirect('./customer');
 });
 
 module.exports = router;

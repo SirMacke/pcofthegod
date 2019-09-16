@@ -5,6 +5,6 @@ const router = express.Router();
 
 router.get('/', [auth, admin], (req, res) => {
   res.sendFile('admin.html', { root: './public' });
-})
+});
 
 module.exports = router;

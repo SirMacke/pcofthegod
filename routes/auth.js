@@ -9,7 +9,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
   res.sendFile('login.html', { root: './public' });
-})
+});
 
 router.post('/', async (req, res) => {
   const { error } = validate(req.body);
@@ -27,11 +27,13 @@ router.post('/', async (req, res) => {
   // Alltså så valideras inte x-auth-token för att den bara skickar websidorna
   // Hitta ett sett så att den redirectar med x-auth-token
 
+  res.cookie('tokenId', token, { signed: true });
+
   const decoded = jwt.verify(token, config.get('jwtPrivateKey'));
   if (decoded.isAdmin) {
-    res.sendFile('admin.html', { root: './public' });
+    res.redirect('./admin');
   } else {
-    res.sendFile('customer.html', { root: './public' });
+    res.redirect('./customer');
   }
 });
 
