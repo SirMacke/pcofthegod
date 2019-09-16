@@ -1,5 +1,7 @@
 const Joi = require('joi');
 const bcrypt = require('bcrypt');
+const jwt = require('jsonwebtoken');
+const config = require('config');
 const mongoose = require('mongoose');
 const {User} = require('../models/user');
 const express = require('express');
@@ -20,7 +22,17 @@ router.post('/', async (req, res) => {
   if (!validPassword) return res.status(400).send('Invalid email or password');
 
   const token = user.generateAuthToken();
-  res.send(token);
+
+  // Skickar bara dokumenten istället för att redirecta till admin.js eller customer.js
+  // Alltså så valideras inte x-auth-token för att den bara skickar websidorna
+  // Hitta ett sett så att den redirectar med x-auth-token
+
+  const decoded = jwt.verify(token, config.get('jwtPrivateKey'));
+  if (decoded.isAdmin) {
+    res.sendFile('admin.html', { root: './public' });
+  } else {
+    res.sendFile('customer.html', { root: './public' });
+  }
 });
 
 function validate(req) {

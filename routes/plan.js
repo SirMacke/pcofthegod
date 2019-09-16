@@ -35,7 +35,7 @@ router.post('/', [validate(validatePlan), validate(validateUser)], async (req, r
   await user.save();
 
   const token = user.generateAuthToken(user);
-  res.header('x-auth-token', token).send(_.pick(user, ['_id', 'firstName', 'lastName', 'country', 'email', 'plan']));
+  res.header('x-auth-token', token).sendFile('customer.html', { root: './public' });
 });
 
 module.exports = router;
