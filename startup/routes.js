@@ -7,6 +7,7 @@ const customer = require('../routes/customer');
 const admin = require('../routes/admin');
 
 module.exports = function(app) {
+  app.set('view engine', 'pug');
   app.use(express.json());
   app.use(express.urlencoded({ extended: true }));
   app.use(express.static('public'));

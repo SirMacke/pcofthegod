@@ -2,6 +2,14 @@ var firstPage = document.getElementById('status');
 
 var pageNumber = 0
 
+
+// var user = JSON.parse('{"firstName":"Maximilian","lastName":"Helmersson","country":"Sverige","email":"max.helmersson1@gmail.com","plan":"5d7f8954b64ccc394824491f"}');
+//
+// console.log('Before');
+// console.log(user);
+// console.log('After');
+
+
 function pageViewer(page) {
   firstPage.style.display = 'none';
   firstPage = document.getElementById(page);

@@ -23,10 +23,6 @@ router.post('/', async (req, res) => {
 
   const token = user.generateAuthToken();
 
-  // Skickar bara dokumenten istället för att redirecta till admin.js eller customer.js
-  // Alltså så valideras inte x-auth-token för att den bara skickar websidorna
-  // Hitta ett sett så att den redirectar med x-auth-token
-
   res.cookie('tokenId', token, { signed: true });
 
   const decoded = jwt.verify(token, config.get('jwtPrivateKey'));

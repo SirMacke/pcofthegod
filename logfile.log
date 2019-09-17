@@ -626,3 +626,130 @@
 {"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-16T14:04:04.247Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-16T14:06:55.892Z"}
 {"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-16T14:06:57.904Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:30:29.229Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:30:31.245Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:47:42.060Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:47:44.079Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:48:33.729Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:48:35.752Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:49:47.508Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:49:49.530Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:50:05.056Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:50:07.076Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:51:36.081Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:51:38.099Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:53:26.646Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:53:28.664Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:53:37.911Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:53:39.931Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:54:00.858Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:54:02.879Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:54:12.047Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:54:14.067Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:55:19.293Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:55:21.311Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:55:27.084Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:55:29.102Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T15:56:35.603Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T15:56:37.622Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:03:03.009Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:03:05.029Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:03:15.959Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:03:17.981Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:03:26.251Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:03:28.270Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:03:38.199Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:03:40.218Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:04:23.688Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:04:25.702Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:05:16.169Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:05:18.187Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:24:11.920Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:24:13.938Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:28:05.086Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:28:07.100Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:28:35.420Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:28:37.441Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:28:53.618Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:28:55.644Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:29:15.321Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:29:17.344Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:31:18.839Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:31:20.860Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:31:31.572Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:31:33.597Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:32:30.172Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:32:32.195Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:43:02.147Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:43:04.162Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:43:18.222Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:43:20.239Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:43:21.550Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:43:23.567Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:43:58.479Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:44:00.507Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:44:14.414Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:44:16.437Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:44:21.878Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:44:23.900Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:44:39.725Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:44:41.747Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T16:58:38.682Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T16:58:40.702Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:18:26.876Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:18:28.897Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:18:55.057Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:18:57.072Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:19:08.157Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:19:10.174Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:19:22.977Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:19:24.999Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:20:12.668Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:20:14.685Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:21:58.542Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:22:00.566Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:22:49.914Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:22:51.937Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:23:10.227Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:23:12.247Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:23:16.936Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:23:18.957Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:23:41.483Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:23:43.500Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:26:14.495Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:26:16.509Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:38:16.289Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:38:18.309Z"}
+{"message":"write after end","stack":"Error [ERR_STREAM_WRITE_AFTER_END]: write after end\n    at write_ (_http_outgoing.js:572:17)\n    at ServerResponse.write (_http_outgoing.js:567:10)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\customer.js:15:11\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\express\\lib\\response.js:434:22\n    at Immediate.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\express\\lib\\response.js:1073:7)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)","level":"error","timestamp":"2019-09-17T17:38:21.010Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:39:25.150Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:39:27.171Z"}
+{"message":"write after end","stack":"Error [ERR_STREAM_WRITE_AFTER_END]: write after end\n    at write_ (_http_outgoing.js:572:17)\n    at ServerResponse.write (_http_outgoing.js:567:10)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\customer.js:16:11\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\express\\lib\\response.js:434:22\n    at Immediate.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\express\\lib\\response.js:1073:7)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)","level":"error","timestamp":"2019-09-17T17:39:28.202Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:39:57.475Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:39:59.490Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:40:21.066Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:40:23.086Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:40:33.159Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:40:35.179Z"}
+{"message":"write after end","stack":"Error [ERR_STREAM_WRITE_AFTER_END]: write after end\n    at write_ (_http_outgoing.js:572:17)\n    at ServerResponse.write (_http_outgoing.js:567:10)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\customer.js:15:11\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\express\\lib\\response.js:434:22\n    at Immediate.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\express\\lib\\response.js:1073:7)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)","level":"error","timestamp":"2019-09-17T17:40:35.223Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:40:48.713Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:40:50.732Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:41:02.017Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:41:04.030Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:43:00.763Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:43:02.779Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:43:17.805Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:43:19.818Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:50:09.603Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:50:11.622Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:52:36.053Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:52:38.070Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:57:59.073Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:58:01.089Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T17:59:10.442Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T17:59:12.460Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T18:00:14.003Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T18:00:16.019Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T18:01:41.034Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T18:01:43.050Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-17T18:03:20.905Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-17T18:03:22.920Z"}
