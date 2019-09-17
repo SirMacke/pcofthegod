@@ -1,0 +1,198 @@
+//output:customer.html, pretty: true
+doctype html
+head
+  meta(charset='utf-8')
+  link(href='https://fonts.googleapis.com/css?family=Questrial|Russo+One&display=swap' rel='stylesheet')
+  script(src='https://kit.fontawesome.com/c7caeb49e9.js')
+  link(rel='stylesheet' type='text/css' href='/./styles/customer.min.css')
+  title Pcofthegod - Customer
+nav
+  .logo
+    a(href='#status' rel='internal')
+      p Pcofthegod
+  ul.nav-links
+    a(onclick="pageViewer('status')")
+      li Computer Status
+    a(onclick="pageViewer('planAndParts')")
+      li Plan and Parts
+    a(onclick="pageViewer('contact')")
+      li Contact
+    a(onclick="pageViewer('buy')")
+      li#status-button Buy Your PC
+section#status
+  img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
+  h1 Computer Status
+  .div-container
+    .top
+      .text-container
+        p Read about us, how it works and pricing
+        i.fas.fa-check
+      .text-container
+        p Plan your computer
+        i.fas.fa-check
+      .text-container
+        p Send in your plan and create an account
+        i.fas.fa-check
+      .text-container
+        p Your computer parts will be selected
+        i.fas.fa-check
+    .middle
+      .text-container
+        p You&apos;ll receive an email when your parts are selected
+        i.fas.fa-check
+      .text-container
+        p Login to your account to view your parts &amp; price
+        i.fas.fa-check
+      .text-container
+        p Message us for adjustments if necessary
+        i.fas.fa-check
+      .text-container
+        p You buy your computer
+        i.fas.fa-check
+    .bottom
+      .text-container
+        p We order your parts
+        i.fas.fa-check
+      .text-container
+        p We build your computer and get it up running
+        i.fas.fa-check
+      .text-container
+        p Ships the computer
+        i.fas.fa-check
+      .text-container
+        p You receive your custom built computer
+        i.fas.fa-check
+    .arrow-container
+      .top
+        i.fas.fa-chevron-right
+        i.fas.fa-chevron-right
+        i.fas.fa-chevron-right
+      .middle
+        i.fas.fa-chevron-left
+        i.fas.fa-chevron-left
+        i.fas.fa-chevron-left
+      .bottom
+        i.fas.fa-chevron-right
+        i.fas.fa-chevron-right
+        i.fas.fa-chevron-right
+      i#down1.fas.fa-chevron-down
+      i#down2.fas.fa-chevron-down
+section#planAndParts
+  img(src='/./images/setup6.jpg' alt='Gaming setup')
+  #plan.page
+    h1 Plan
+    ul
+      li
+        h3 Usecases :
+        p= usecases
+      li
+        h3 You choosed :
+        p Performance over Silence
+      li
+        h3 You choosed :
+        p Attractivness over Performance
+      li
+        h3 Case size :
+        p Mid Tower
+      li
+        h3 Main color :
+        p Black
+      li
+        h3 Second color :
+        p RGB
+      li
+        h3 Budget :
+        p $1500
+      li
+        h3 Game :
+        p Fortnite
+      li
+        h3 Resolution :
+        p 1080p
+      li
+        h3 FPS :
+        p 120
+      li
+        h3 Setting :
+        p High
+      li
+        h3 Comment :
+        p Nothing
+  #parts.page
+    h1 Parts
+    ul
+      li
+        h3 Case :
+        p Corsair Obsidian 1000D Super Tower
+      li
+        h3 Motherboard :
+        p MSI MEG X570 GODLIKE, Socket-AM4
+      li
+        h3 Processor :
+        p AMD Ryzen 9 3900X Processor
+      li
+        h3 Cooler :
+        p Corsair Hydro H115i RGB Platinum
+      li
+        h3 Memory :
+        p 2x Corsair Vengeance RGB PRO DDR4 16GB
+      li
+        h3 Graphic Card :
+        p MSI GeForce RTX 2080 Ti Gaming X Trio
+      li
+        h3 HDD Storage :
+        p Seagate Barracuda PRO 6TB 3.5&quot;
+      li
+        h3 SSD Storage :
+        p 2x WD Black SN750 1TB M.2
+      li
+        h3 Power Supply :
+        p Corsair AX1600i, 1600W
+      li
+        h3 Cables :
+        p Corsair Professional Sleeved Cable Red
+      li
+        h3 Fans :
+        p Corsair LL140 RGB 140mm 2-pk
+      li
+        h3 Leds :
+        p Corsair RGB LED Lighting Pro
+      li
+        h3 OS :
+        p Microsoft Windows 10 Pro 64-bit OEM
+      li
+        h3 Extra :
+        p Nothing
+  #images.page
+    h1 Images
+    div
+      img.mySlides(src='/./images/cpu.jpg')
+      img.mySlides(src='/./images/case.jpg')
+      div
+        i#imageLeft.fas.fa-chevron-left(onclick='plusDivs(-1)')
+        i#imageRight.fas.fa-chevron-right(onclick='plusDivs(1)')
+        div
+          span.demo(onclick='currentDiv(1)')
+          span.demo(onclick='currentDiv(2)')
+  button#pageLeft.fas.fa-chevron-left.pageSelectors(onclick='pageSelection(-1)')
+  button#pageRight.fas.fa-chevron-right.pageSelectors(onclick='pageSelection(+1)')
+section#contact
+  .contact
+    .contact-div
+      img#iphone(src='/./images/iphone.jpg' alt='Iphone')
+      #call-text.contact-text
+        i.fas.fa-phone-alt
+        h3 Call Us
+        h4 (+46) 72 336 53 00
+    .contact-div
+      img#mail(src='/./images/mail.jpg' alt='Mail')
+      #email-text.contact-text
+        i.far.fa-envelope
+        h3 Email Us
+        h4 Pcofthegod@gmail.com
+    #footer
+      img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
+      h1#main-name Pcofthegod
+section#buy
+  h1 Buy Your Computer
+script(type='text/javascript' src='/./scripts/customer.js')
