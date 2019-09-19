@@ -1,0 +1,237 @@
+//output:plan.html, pretty: true
+doctype html
+head
+  meta(charset='utf-8')
+  link(href='https://fonts.googleapis.com/css?family=Questrial|Russo+One&display=swap' rel='stylesheet')
+  script(src='https://kit.fontawesome.com/c7caeb49e9.js')
+  link(rel='stylesheet' type='text/css' href='/./styles/plan.min.css')
+  title Pcofthegod - Plan
+body
+  form#planForm(method='post')
+    section#top
+      img.background-img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
+      h1 Plan your Computer
+      h3 Choose what fits you the best!
+      button(type='button' onclick='pageSelection(+1)') Start!
+    section#usecase
+      h1 How will you use your computer?
+      div
+        .usecases
+          img(src='/./images/streaming.jpg' alt='Streaming image')
+          h2 Streaming
+          label.container
+            div
+              input(type='checkbox' value='Streaming' name='streaming')
+              span.checkmark
+        .usecases
+          img(src='/./images/gaming3.jpg' alt='Gaming image')
+          h2 Gaming
+          label.container
+            div
+              input(type='checkbox' value='Gaming' name='gaming')
+              span.checkmark
+        .usecases
+          img(src='/./images/productivity.jpg' alt='Productivity image')
+          h2 Productivity
+          label.container
+            div
+              input(type='checkbox' value='Productivity' name='productivity')
+              span.checkmark
+    section#slider1.sliders
+      h1 Performance or Silence?
+      div
+        .slider-options
+          img(src='/./images/performance.jpg' alt='Performance computer')
+          .shadow
+          h2 Performance
+        .slider-options
+          img(src='/./images/silent.jpg' alt='Silent computer')
+          .shadow
+          h2 Silence
+        .slidecontainer
+          input.slider(type='range' min='1' max='100' value='50' name='sliderOne')
+    section#slider2.sliders
+      h1 Performance or Attractivness?
+      div
+        .slider-options
+          img(src='/./images/performance.jpg' alt='Performance computer')
+          .shadow
+          h2 Performance
+        .slider-options
+          img(src='/./images/attractivness.jpg' alt='Silent computer')
+          .shadow
+          h2 Attractivness
+        .slidecontainer
+          input.slider(type='range' min='1' max='100' value='50' name='sliderTwo')
+    section#case-size
+      h1 What case size do you want?
+      div
+        .options
+          img(src='/./images/attractivness.jpg' alt='Mini tower computer')
+          h2 Mini Tower
+          label.container
+            div
+              input(type='radio' value='Mini Tower' name='case')
+              span.checkmark
+        .options
+          img(src='/./images/attractivness.jpg' alt='Micro tower computer')
+          h2 Micro Tower
+          label.container
+            div
+              input(type='radio' value='Micro Tower' name='case')
+              span.checkmark
+        .options
+          img(src='/./images/attractivness.jpg' alt='Mid tower computer')
+          h2 Mid Tower
+          label.container
+            div
+              input(type='radio' value='Mid Tower' name='case')
+              span.checkmark
+        .options
+          img(src='/./images/attractivness.jpg' alt='Full tower computer')
+          h2 Full Tower
+          label.container
+            div
+              input(type='radio' value='Full Tower' name='case')
+              span.checkmark
+    section#main-color
+      h1 What should the main color be?
+      div
+        .options
+          img#black(src='/./images/black.jpg' alt='Black computer')
+          h2 Black
+          label.container
+            div
+              input(type='radio' value='Black' name='mainColor')
+              span.checkmark
+        .options
+          img#white(src='/./images/white.jpg' alt='White computer')
+          h2 White
+          label.container
+            div
+              input(type='radio' value='White' name='mainColor')
+              span.checkmark
+    section#second-color
+      h1 What should the second color be?
+      div
+        .options(onclick='secondColor(0)')
+          img(src='/./images/red1.jpg' alt='Red gaming PC')
+          label.container
+            input(type='radio' value='Red' name='secondColor')
+            span.checkmark
+        .options(onclick='secondColor(1)')
+          img(src='/./images/orange1.jpg' alt='Orange gaming PC')
+          label.container
+            input(type='radio' value='Orange' name='secondColor')
+            span.checkmark
+        .options(onclick='secondColor(2)')
+          img(src='/./images/yellow1.jpg' alt='Yellow gaming PC')
+          label.container
+            input(type='radio' value='Yellow' name='secondColor')
+            span.checkmark
+        .options(onclick='secondColor(3)')
+          img(src='/./images/green1.jpg' alt='Green gaming PC')
+          label.container
+            input(type='radio' value='Green' name='secondColor')
+            span.checkmark
+        .options(onclick='secondColor(4)')
+          img(src='/./images/rgb1.jpg' alt='Rgb gaming PC')
+          label.container
+            input(type='radio' value='RGB' name='secondColor' checked='')
+            span.checkmark
+        .options(onclick='secondColor(5)')
+          img(src='/./images/cyan1.jpg' alt='Cyan gaming PC')
+          label.container
+            input(type='radio' value='Cyan' name='secondColor')
+            span.checkmark
+        .options(onclick='secondColor(6)')
+          img(src='/./images/blue1.jpg' alt='Blue gaming PC')
+          label.container
+            input(type='radio' value='Blue' name='secondColor')
+            span.checkmark
+        .options(onclick='secondColor(7)')
+          img(src='/./images/pink1.jpg' alt='Pink gaming PC')
+          label.container
+            input(type='radio' value='Pink' name='secondColor')
+            span.checkmark
+        .options(onclick='secondColor(8)')
+          img(src='/./images/purple1.jpg' alt='Purple gaming PC')
+          label.container
+            input(type='radio' value='Purple' name='secondColor')
+            span.checkmark
+    section#special
+      img(src='/./images/setup2.jpg' alt='Computer Setup')
+      h1 Special information
+      #container-left
+        .game-or-budget
+          h3 Do you have a budget or a game that the computer should be capable of?
+          div
+            label.container
+              input(type='radio' onclick='gameOrBudget(0)' checked='')
+              span.checkmark Budget
+            label.container
+              input(type='radio' onclick='gameOrBudget(1)')
+              span.checkmark Game
+        #game
+          input#game-name(type='text' placeholder='Your favorite game' name='name')
+          .resolution
+            label.container
+              input(type='radio' value='1080p' name='resolution' checked='')
+              span.checkmark 1080p
+            label.container
+              input(type='radio' value='1440p' name='resolution')
+              span.checkmark 1440p
+            label.container
+              input(type='radio' value='4k' name='resolution')
+              span.checkmark 4k
+          .fps
+            label.container
+              input(type='radio' value='60 FPS' name='fps' checked='')
+              span.checkmark 60 FPS
+            label.container
+              input(type='radio' value='120 FPS' name='fps')
+              span.checkmark 120 FPS
+          .setting
+            label.container
+              input(type='radio' value='Low' name='setting')
+              span.checkmark Low
+            label.container
+              input(type='radio' value='Medium' name='setting' checked='')
+              span.checkmark Medium
+            label.container
+              input(type='radio' value='High' name='setting')
+              span.checkmark High
+        #budget
+          h3 What&apos;s your budget for your computer?
+          span.currencyinput
+            | $
+            input(type='number' name='budget')
+      #container-right
+        h3 Anything special that I should know?
+        textarea(rows='25' cols='50' placeholder='Write here...' name='comment')
+    section#contact
+      img.background-img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
+      h1 Contact information
+      .user
+        div
+          .icon-div
+            i.fas.fa-user
+          input#first-name(type='text' placeholder='First Name' name='firstName')
+          input#last-name(type='text' placeholder='Last Name' name='lastName')
+        div
+          .icon-div
+            i.fas.fa-globe-europe
+          input(type='text' placeholder='Country' name='country')
+        div
+          .icon-div
+            i.fas.fa-envelope
+          input(type='email' placeholder='Email' name='email')
+        div
+          .icon-div
+            i.fas.fa-lock
+          input(type='password' placeholder='Password' name='password')
+        div
+          button#send(type='submit') Send plan!
+    i#left.fas.fa-arrow-circle-left(onclick='pageSelection(-1)')
+    i#right.fas.fa-arrow-circle-right(onclick='pageSelection(+1)')
+script(type='text/javascript' src='/./scripts/plan.js')

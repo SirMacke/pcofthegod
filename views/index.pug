@@ -1,0 +1,133 @@
+//output:index.html, pretty: true
+doctype html
+head
+	meta(charset='utf-8')
+	link(href='https://fonts.googleapis.com/css?family=Questrial|Russo+One&display=swap' rel='stylesheet')
+	script(src='https://kit.fontawesome.com/c7caeb49e9.js')
+	link(rel='stylesheet' type='text/css' href='/./styles/index.min.css')
+	title Pcofthegod - Main
+body
+	nav
+		.logo
+			a(href='#home' rel='internal')
+				p Pcofthegod
+		ul.nav-links
+			a(href='#home' rel='internal')
+				li Home
+			a(href='#about' rel='internal')
+				li About
+			a(href='#how-it-works' rel='internal')
+				li How it Works
+			a(href='#prices' rel='internal')
+				li Prices
+			a(href='#contact' rel='internal')
+				li Contact
+			a(href='/./api/plan')
+				li#plan-your-computer-button Plan your Computer
+	section#home.first-page
+		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
+		.shadow
+		main
+			h1 PC of the God
+			h3 Your Gaming Computer Builder
+	section#about
+		img(src='/./images/setup2.jpg' alt='Computer Setup')
+		.shadow
+		.about-us
+			h1 About Us
+			p
+				| We are here to help you find your dream pc at a good cost! Our goal is to build gaming computers while keeping it simple for you. We will select the best computer parts, build your custom computer and ship it out to you. Start plan your computer now and you&apos;ll get the best computer parts for your budget.
+	section#how-it-works
+		img(src='/./images/beast.jpg' alt='Gaming computer')
+		.shadow
+		.how-it-works
+			h1 How it works
+			.div-container
+				.text-container
+					p Read about us, how it works and pricing
+				.text-container
+					p Plan your computer
+				.text-container
+					p Send in your plan and create an account
+				.text-container
+					p Your computer parts will be selected
+				.text-container
+					p buy your computer
+				.text-container
+					p Message us for adjustments if necessary
+				.text-container
+					p Login to your account to view your parts &amp; price
+				.text-container
+					p You&apos;ll receive an email when your parts are selected
+				.text-container
+					p We order your parts
+				.text-container
+					p We build your computer and get it up running
+				.text-container
+					p Ships the computer
+				.text-container
+					p You receive your custom built computer
+				.arrow-container
+					.top
+						i.fas.fa-chevron-right
+						i.fas.fa-chevron-right
+						i.fas.fa-chevron-right
+					.middle
+						i.fas.fa-chevron-left
+						i.fas.fa-chevron-left
+						i.fas.fa-chevron-left
+					.bottom
+						i.fas.fa-chevron-right
+						i.fas.fa-chevron-right
+						i.fas.fa-chevron-right
+					i#down1.fas.fa-chevron-down
+					i#down2.fas.fa-chevron-down
+	section#prices
+		img(src='/./images/beast2.jpg' alt='Gaming Computer')
+		.shadow
+		.prices
+			h1 Prices
+			.divs
+				.prices-div
+					h2 Small Build
+					.receive
+						p PC worth less than 1000$
+						p Mini and Micro size cases
+						p Fully complete computer
+						p Free shipping
+					h3 99,99$
+				.prices-div
+					h2 Medium Build
+					.receive
+						p PC worth between 1000$ - 2000$
+						p Micro and Mid size cases
+						p Fully complete computer
+						p Free shipping
+					h3 149,99$
+				.prices-div
+					h2 Big Build
+					.receive
+						p PC worth more than 2000$
+						p Mid and Full size cases
+						p Fully complete computer
+						p Free shipping
+					h3 199,99$
+		input(type='button' value='Plan your Computer' onclick="window.location.href='/./api/plan'")
+	section#contact
+		.contact
+			.contact-div
+				img#iphone(src='/./images/iphone.jpg' alt='Iphone')
+				#call-text.contact-text
+					i.fas.fa-phone-alt
+					h3 Call Us
+					h4 (+46) 72 336 53 00
+			.contact-div
+				img#mail(src='/./images/mail.jpg' alt='Mail')
+				#email-text.contact-text
+					i.far.fa-envelope
+					h3 Email Us
+					h4 Pcofthegod@gmail.com
+			#footer
+				img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
+				h1#main-name Pcofthegod
+script(type='text/javascript' src='/./scripts/index.js')
