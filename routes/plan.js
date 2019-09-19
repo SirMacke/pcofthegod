@@ -10,7 +10,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.sendFile('plan.html', { root: './public' });
+  res.render('plan');
 });
 
 router.post('/', [validate(validatePlan), validate(validateUser)], async (req, res) => {
