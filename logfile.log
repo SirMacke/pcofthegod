@@ -835,7 +835,10 @@
 {"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-19T17:51:39.845Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-19T17:51:41.825Z"}
 {"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-19T17:51:43.845Z"}
+<<<<<<< HEAD
 {"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-19T17:57:41.081Z"}
 {"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-19T17:57:43.101Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-19T17:58:54.619Z"}
 {"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-19T17:58:56.640Z"}
+=======
+>>>>>>> 26158b30cf5b288ebba0d779ba6cec8a77292f04
