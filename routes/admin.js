@@ -12,7 +12,14 @@ router.get('/', [auth, admin], async (req, res) => {
 
     Plan.find({}, function(err, plans) {
       var planMap = plans;
-      
+
+      console.log(userMap[0 + 1])
+      console.log(planMap[0])
+
+
+      // const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      // var date = months[plan.dateCreated.getMonth()] + ' ' + plan.dateCreated.getDate() + ' ' + plan.dateCreated.getFullYear();
+
       res.render('admin', { users: userMap, plans: planMap});
     });
   });
