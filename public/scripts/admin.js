@@ -10,3 +10,16 @@ function pageViewer(page) {
 
   oldPage = newPage
 }
+
+function newOrFixed(num) {
+  var newContainer = document.getElementById('newContainer');
+  var fixedContainer = document.getElementById('fixedContainer');
+
+  if (num == 0) {
+    fixedContainer.style.display = 'none';
+    newContainer.style.display = 'flex';
+  } else {
+    newContainer.style.display = 'none';
+    fixedContainer.style.display = 'flex';
+  }
+}

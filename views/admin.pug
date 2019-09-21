@@ -23,33 +23,30 @@ body
 	section#plans
 		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
 		h1 New Plans
-		.container
-			- const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-			a.plan(href='./admin/' + users[0]._id)
-				h3= users[0].firstName + ' ' + users[0].lastName
-				h4.country= users[0].country
-				p.budget= 'Budget : $' + plans[0].budget.toString()
-				p.sent= months[plans[0].dateCreated.getMonth()] + ' ' + plans[0].dateCreated.getDate() + ' ' + plans[0].dateCreated.getFullYear()
-			a.plan(href='./admin/' + users[1]._id)
-				h3= users[1].firstName + ' ' + users[1].lastName
-				h4.country= users[1].country
-				p.budget= 'Budget: $' + plans[1].budget.toString()
-				p.sent= months[plans[1].dateCreated.getMonth()] + ' ' + plans[1].dateCreated.getDate() + ' ' + plans[1].dateCreated.getFullYear()
-			a.plan(href='./admin/' + users[2]._id)
-				h3= users[2].firstName + ' ' + users[2].lastName
-				h4.country= users[2].country
-				p.budget= 'Budget: $' + plans[2].budget.toString()
-				p.sent= months[plans[2].dateCreated.getMonth()] + ' ' + plans[2].dateCreated.getDate() + ' ' + plans[2].dateCreated.getFullYear()
-			a.plan(href='./admin/' + users[3]._id)
-				h3= users[3].firstName + ' ' + users[3].lastName
-				h4.country= users[3].country
-				p.budget= 'Budget: $' + plans[3].budget.toString()
-				p.sent= months[plans[3].dateCreated.getMonth()] + ' ' + plans[3].dateCreated.getDate() + ' ' + plans[3].dateCreated.getFullYear()
-			a.plan(href='./admin/' + users[4]._id)
-				h3= users[4].firstName + ' ' + users[4].lastName
-				h4.country= users[4].country
-				p.budget= 'Budget: $' + plans[4].budget.toString()
-				p.sent= months[plans[4].dateCreated.getMonth()] + ' ' + plans[4].dateCreated.getDate() + ' ' + plans[4].dateCreated.getFullYear()
+		.newOrFixed
+			label.container
+				input(type='radio' name="newOrFixed" onclick='newOrFixed(0)' checked='')
+				span.checkmark#newSpan New
+			label.container
+				input(type='radio' name="newOrFixed" onclick='newOrFixed(1)' id="fixed")
+				span.checkmark#fixedSpan Fixed
+		- const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+		.container#newContainer
+			for n, i in users
+				if !users[i].order
+					a.plan(href='./admin/' + users[i]._id)
+						h3= users[i].firstName + ' ' + users[i].lastName
+						h4.country= users[i].country
+						p.budget= 'Budget : $' + plans[i].budget.toString()
+						p.sent= months[plans[i].dateCreated.getMonth()] + ' ' + plans[i].dateCreated.getDate() + ' ' + plans[i].dateCreated.getFullYear()
+		.container#fixedContainer
+			for n, i in users
+				if users[i].order
+					a.plan(href='./admin/' + users[i]._id)
+						h3= users[i].firstName + ' ' + users[i].lastName
+						h4.country= users[i].country
+						p.budget= 'Budget : $' + plans[i].budget.toString()
+						p.sent= months[plans[i].dateCreated.getMonth()] + ' ' + plans[i].dateCreated.getDate() + ' ' + plans[i].dateCreated.getFullYear()
 	section#orders
 		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
 		h1 New Orders

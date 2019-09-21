@@ -15,7 +15,7 @@ router.get('/', [auth, admin], async (req, res) => {
 
       res.render('admin', { users: userMap, plans: planMap});
     });
-  });
+  }).select('-password');
 });
 
 router.get('/:id', [auth, admin], async (req, res) => {
