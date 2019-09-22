@@ -18,7 +18,7 @@ router.get('/', auth, async (req, res) => {
   if (!plan) return res.status(404).send('Invalid plan.');
 
 
-  res.render('customer', { usecases: plan.gaming, sliderOne: plan.sliderOne, sliderTwo: plan.sliderTwo, case1: plan.case, mainColor: plan.mainColor, secondColor: plan.secondColor, budget: plan.budget, name: plan.name, resolution: plan.resolution, fps: plan.fps, setting: plan.setting, comment: plan.comment });
+  res.render('customer', { user: user, plan: plan });
 })
 
 module.exports = router;

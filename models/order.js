@@ -19,6 +19,11 @@ const Order = mongoose.model('Order', new mongoose.Schema({
     default: false,
     required: true
   },
+  delivered: {
+    type: Boolean,
+    default: false,
+    required: true
+  },
   dateCreated: {
     type: Date,
     required: true,
@@ -31,6 +36,7 @@ function validateOrder(order) {
     parts: Joi.objectId().required(),
     price: Joi.objectId().required(),
     bought: Joi.boolean().required(),
+    delivered: Joi.boolean().required(),
     dateCreated: Joi.Date().required()
   }
 

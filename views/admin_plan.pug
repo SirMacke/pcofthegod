@@ -1,1 +1,112 @@
 //output:admin_plan.html, pretty: true
+doctype html
+head
+	meta(charset='utf-8')
+	link(href='https://fonts.googleapis.com/css?family=Questrial|Russo+One&display=swap' rel='stylesheet')
+	script(src='https://kit.fontawesome.com/c7caeb49e9.js')
+	link(rel='stylesheet' type='text/css' href='/./styles/admin_plan.min.css')
+	title Pcofthegod - Plan
+body
+	form
+		section
+		img(src='/./images/setup6.jpg' alt='Gaming setup')
+		#plan.page
+			h1 Plan
+			ul
+				li
+					h3 Usecases :
+					p= plan.gaming
+				li
+					h3 They choosed :
+					p= plan.sliderOne
+				li
+					h3 They choosed :
+					p= plan.sliderTwo
+				li
+					h3 Case size :
+					p= plan.case
+				li
+					h3 Main color :
+					p= plan.mainColor
+				li
+					h3 Second color :
+					p= plan.secondColor
+				li
+					h3 Budget :
+					p= plan.budget
+				li
+					h3 Game :
+					p= plan.name
+				li
+					h3 Resolution :
+					p= plan.resolution
+				li
+					h3 FPS :
+					p= plan.fps
+				li
+					h3 Setting :
+					p= plan.setting
+				li
+					h3 Comment :
+					p= plan.comment
+		#parts.page
+			h1 Parts
+			ul
+				li
+					h3 Case :
+					input(type='text' name='case')
+				li
+					h3 Motherboard :
+					input(type='text' name='mb')
+				li
+					h3 Processor :
+					input(type='text' name='cpu')
+				li
+					h3 Cooler :
+					input(type='text' name='cooler')
+				li
+					h3 Memory :
+					input(type='text' name='ram')
+				li
+					h3 Graphic Card :
+					input(type='text' name='gpu')
+				li
+					h3 HDD Storage :
+					input(type='text' name='hdd')
+				li
+					h3 SSD Storage :
+					input(type='text' name='ssd')
+				li
+					h3 Power Supply :
+					input(type='text' name='cpu')
+				li
+					h3 Cables :
+					input(type='text' name='cables')
+				li
+					h3 Fans :
+					input(type='text' name='fans')
+				li
+					h3 Leds :
+					input(type='text' name='led')
+				li
+					h3 OS :
+					input(type='text' name='os')
+				li
+					h3 Extra :
+					input(type='text' name='extra')
+		#price.page
+			h1 Price
+			ul
+				li
+					h3 Computer cost :
+					input#computer(type='number' name='computerPrice' oninput='updateTotalCost()')
+				li
+					h3 Service cost :
+					input#service(type='number' name='servicePrice' oninput='updateTotalCost()')
+				li
+					h3 Shipping cost :
+					input#shipping(type='number' name='shippingPrice' oninput='updateTotalCost()')
+				li
+					h3 Total cost :
+					input#total(type='number' name='totalPrice' readonly)
+script(type='text/javascript' src='/./scripts/admin_plan.js')

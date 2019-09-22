@@ -8,7 +8,7 @@ const Parts = mongoose.model('Parts', new mongoose.Schema({
     minlength: 5,
     maxlength: 255
   },
-  motherboard: {
+  mb: {
     type: String,
     required: true,
     minlength: 5,
@@ -68,6 +68,11 @@ const Parts = mongoose.model('Parts', new mongoose.Schema({
     minlength: 5,
     maxlength: 255
   },
+  os: {
+    type: String,
+    minlength: 5,
+    maxlength: 255
+  },
   extra: {
     type: String,
     minlength: 5,
@@ -78,7 +83,7 @@ const Parts = mongoose.model('Parts', new mongoose.Schema({
 function validateParts(parts) {
   const schema = {
     case: Joi.string().min(5).max(255).required(),
-    motherboard: Joi.string().min(5).max(255).required(),
+    mb: Joi.string().min(5).max(255).required(),
     cpu: Joi.string().min(5).max(255).required(),
     cooler: Joi.string().min(5).max(255),
     ram: Joi.string().min(5).max(255).required(),
@@ -89,7 +94,13 @@ function validateParts(parts) {
     cables: Joi.string().min(5).max(255),
     fans: Joi.string().min(5).max(255),
     led: Joi.string().min(5).max(255),
-    extra: Joi.string().min(5).max(255)
+    os: Joi.string().min(5).max(255),
+    extra: Joi.string().min(5).max(255),
+
+    computerPrice: Joi.allow(),
+    servicePrice: Joi.allow(),
+    shippingPrice: Joi.allow(),
+    totalPrice: Joi.allow()
   };
 }
 

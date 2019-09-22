@@ -33,7 +33,21 @@ function validatePrice(price) {
     computerPrice: Joi.number().min(550).max(10000).required(),
     servicePrice: Joi.number().min(50).max(200).required(),
     shippingPrice: Joi.number().min(0).max(1000).required(),
-    totalPrice: Joi.number().min(550).max(11200).required()
+    totalPrice: Joi.number().min(550).max(11200).required(),
+
+    case: Joi.allow(),
+    mb: Joi.allow(),
+    cpu: Joi.allow(),
+    cooler: Joi.allow(),
+    ram: Joi.allow(),
+    gpu: Joi.allow(),
+    ssd: Joi.allow(),
+    hdd: Joi.allow(),
+    psu: Joi.allow(),
+    cables: Joi.allow(),
+    fans: Joi.allow(),
+    led: Joi.allow(),
+    extra: Joi.allow()
   }
 
   return Joi.validate(price, schema);
