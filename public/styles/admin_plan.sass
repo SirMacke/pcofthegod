@@ -1,4 +1,142 @@
 body
   margin: 0
   font-family: 'Questrial', sans-serif
-  color: black
+  color: white
+
+  section
+    position: relative
+    height: 100%
+    width: 100%
+    margin: 0
+
+    img
+      position: absolute
+      object-fit: cover
+      height: 100%
+      width: 100%
+
+    form
+      display: grid
+      grid-template-columns: repeat(3, 1fr)
+      height: 100%
+
+      .page
+        position: relative
+        display: flex
+        height: 100vh
+
+        h1
+          position: relative
+          text-align: center
+          margin-top: 0
+          top: 12.5%
+          left: 50%
+          transform: translateX(-50%)
+          font-size: 4em
+          font-family: 'Russo One', sans-serif
+          text-shadow: 0px 0px 25px black
+
+        ul
+          position: absolute
+          width: 500px
+          top: 22.5%
+          left: 50%
+          transform: translateX(-50%)
+
+          li
+            position: relative
+            display: flex
+            width: inherit
+            height: 50px
+            text-shadow: 0px 0px 15px black
+
+            h3
+              position: relative
+              height: 1.5em
+              width: auto
+              margin-top: 12.5px
+              font-size: 1.5em
+              left: -75px
+
+            p
+              position: absolute
+              right: 0px
+              margin-top: 16px
+              font-size: 1.25em
+              height: 1.25em
+
+            input
+              position: absolute
+              right: -25px
+              top: 50%
+              transform: translateY(-50%)
+              height: 30px
+              width: 400px
+              font-size: 1.2em
+              background: rgba(0, 0, 0, 0.5)
+              border: 2px solid white
+              border-radius: 5px
+              padding-left: 7.5px
+              padding-right: 7.5px
+              color: white
+              text-shadow: 0px 0px 15px black
+
+            input:focus
+              outline: none
+
+            input::-webkit-inner-spin-button,
+            input::-webkit-outer-spin-button
+              -webkit-appearance: none
+              -moz-appearance: none
+              appearance: none
+              margin: 0
+
+        #submit
+          position: absolute
+          width: 150px
+          height: 75px
+          top: 50%
+          left: 50%
+          transform: translateX(-50%)
+          background: #008CBA
+          color: white
+          font-size: 1.5em
+          font-family: 'Russo One', sans-serif
+          border: none
+          border-radius: 5px
+          -webkit-transition-duration: 0.25s
+          transition-duration: 0.25s
+
+        #submit:hover
+          background: #0079a1
+
+        #submit:focus
+          outline: none
+
+
+      #plan
+        ul
+          li
+            h3
+              left: 20%
+            p
+              right: 30%
+
+      #price
+        ul
+          li
+            h3
+              left: 15%
+
+            span
+              position: absolute
+              right: 39%
+              top: 12px
+              font-size: 1.5em
+              z-index: 1
+
+            input
+              padding-top: 0px
+              width: 60px
+              right: 24.25%
+              padding-left: 30px

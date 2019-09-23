@@ -1,7 +1,7 @@
 function updateTotalCost() {
-  var computer = parseInt(document.getElementById('computer').value);
-  var service = parseInt(document.getElementById('service').value);
-  var shipping = parseInt(document.getElementById('shipping').value);
+  var computer = parseFloat(document.getElementById('computer').value);
+  var service = parseFloat(document.getElementById('service').value);
+  var shipping = parseFloat(document.getElementById('shipping').value);
   var total = document.getElementById('total');
 
   // Fungerar inte..........
