@@ -37,12 +37,12 @@ const Parts = mongoose.model('Parts', new mongoose.Schema({
     minlength: 5,
     maxlength: 255
   },
-  ssd: {
+  hdd: {
     type: String,
     minlength: 5,
     maxlength: 255
   },
-  hdd: {
+  ssd: {
     type: String,
     minlength: 5,
     maxlength: 255
@@ -63,7 +63,7 @@ const Parts = mongoose.model('Parts', new mongoose.Schema({
     minlength: 5,
     maxlength: 255
   },
-  led: {
+  leds: {
     type: String,
     minlength: 5,
     maxlength: 255
@@ -88,12 +88,12 @@ function validateParts(parts) {
     cooler: Joi.string().min(5).max(255),
     ram: Joi.string().min(5).max(255).required(),
     gpu: Joi.string().min(5).max(255).required(),
-    ssd: Joi.string().min(5).max(255),
     hdd: Joi.string().min(5).max(255),
+    ssd: Joi.string().min(5).max(255),
     psu: Joi.string().min(5).max(255).required(),
     cables: Joi.string().min(5).max(255),
     fans: Joi.string().min(5).max(255),
-    led: Joi.string().min(5).max(255),
+    leds: Joi.string().min(5).max(255),
     os: Joi.string().min(5).max(255),
     extra: Joi.string().min(5).max(255),
 
@@ -101,8 +101,10 @@ function validateParts(parts) {
     servicePrice: Joi.allow(),
     shippingPrice: Joi.allow(),
     totalPrice: Joi.allow()
-  };
+  }
+
+  return Joi.validate(parts, schema);
 }
 
-exports.Parts = Parts;
 exports.validateParts = validateParts;
+exports.Parts = Parts;

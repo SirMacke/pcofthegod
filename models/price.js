@@ -41,17 +41,18 @@ function validatePrice(price) {
     cooler: Joi.allow(),
     ram: Joi.allow(),
     gpu: Joi.allow(),
-    ssd: Joi.allow(),
     hdd: Joi.allow(),
+    ssd: Joi.allow(),
     psu: Joi.allow(),
     cables: Joi.allow(),
     fans: Joi.allow(),
-    led: Joi.allow(),
+    leds: Joi.allow(),
+    os: Joi.allow(),
     extra: Joi.allow()
   }
 
   return Joi.validate(price, schema);
 }
 
-exports.Price = Price;
 exports.validatePrice = validatePrice;
+exports.Price = Price;

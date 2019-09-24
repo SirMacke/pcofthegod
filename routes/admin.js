@@ -3,8 +3,8 @@ const admin = require('../middleware/admin');
 const validate = require('../middleware/validate');
 const {User} = require('../models/user');
 const {Plan} = require('../models/plan');
-const {validateParts, Parts} = require('../models/order');
-const {validatePrice, Price} = require('../models/order');
+const {validateParts, Parts} = require('../models/parts');
+const {validatePrice, Price} = require('../models/price');
 const {Order} = require('../models/order');
 const _ = require('lodash');
 const mongoose = require('mongoose');
@@ -38,7 +38,7 @@ router.post('/:id', [auth, admin, validate(validateParts), validate(validatePric
   const user = await User.findById(req.params.id);
   if (!user) return res.status(404).send('Invalid user.');
 
-  let parts = new Parts(_.pick(req.body, ['case', 'mb', 'cpu', 'cooler', 'ram', 'gpu', 'ssd', 'hdd', 'psu', 'cables', 'fans', 'led', 'os', 'extra']));
+  let parts = new Parts(_.pick(req.body, ['case', 'mb', 'cpu', 'cooler', 'ram', 'gpu', 'hdd', 'ssd', 'psu', 'cables', 'fans', 'led', 'os', 'extra']));
   await parts.save();
 
   let price = new Price(_.pick(req.body, ['computerPrice', 'servicePrice', 'shippingPrice', 'totalPrice']));
@@ -51,8 +51,9 @@ router.post('/:id', [auth, admin, validate(validateParts), validate(validatePric
   await order.save();
 
   user.order = order._id;
+  await user.save();
 
-  res.send('Done');
+  res.send(user);
 });
 
 module.exports = router;
