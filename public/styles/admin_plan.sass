@@ -2,6 +2,7 @@ body
   margin: 0
   font-family: 'Questrial', sans-serif
   color: white
+  background: black
 
   section
     position: relative
@@ -14,6 +15,7 @@ body
       object-fit: cover
       height: 100%
       width: 100%
+      opacity: 0.75
 
     form
       display: grid
@@ -48,7 +50,7 @@ body
             display: flex
             width: inherit
             height: 50px
-            text-shadow: 0px 0px 15px black
+            text-shadow: 0px 0px 25px black
 
             h3
               position: relative
@@ -67,19 +69,19 @@ body
 
             input
               position: absolute
-              right: -25px
+              right: 0px
               top: 50%
               transform: translateY(-50%)
               height: 30px
-              width: 400px
+              width: 375px
               font-size: 1.2em
-              background: rgba(0, 0, 0, 0.5)
+              background: rgba(0, 0, 0, 0.4)
               border: 2px solid white
               border-radius: 5px
               padding-left: 7.5px
               padding-right: 7.5px
               color: white
-              text-shadow: 0px 0px 15px black
+              text-shadow: 0px 0px 25px black
 
             input:focus
               outline: none
@@ -90,6 +92,36 @@ body
               -moz-appearance: none
               appearance: none
               margin: 0
+
+            .custom-file-upload
+              position: absolute
+              height: 32.5px
+              width: auto
+              padding-left: 10px
+              padding-right: 10px
+              right: -20px
+              top: 50%
+              transform: translateY(-50%)
+              display: inline-block
+              cursor: pointer
+              background: rgba(0, 0, 0, 0.5)
+              border: 2px solid white
+              border-radius: 5px
+
+              i
+                position: relative
+                top: 7.5px
+                left: 50%
+                transform: translateX(-50%)
+
+              p
+                position: absolute
+                left: 47.5px
+                top: -10px
+                text-shadow: 0px 0px 25px black
+
+            input[type="file"]
+              display: none
 
         #submit
           position: absolute
@@ -121,6 +153,17 @@ body
               left: 20%
             p
               right: 30%
+
+      #parts
+        z-index: 1
+
+        ul
+          li
+            h3
+              left: -125px
+
+            input
+              right: 50px
 
       #price
         ul

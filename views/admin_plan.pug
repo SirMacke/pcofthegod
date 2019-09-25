@@ -9,7 +9,7 @@ head
 body
 	section
 		img(src='/./images/setup6.jpg' alt='Gaming setup')
-		form(method='post')
+		form(method='post' enctype="multipart/form-data")
 			#plan.page
 				h1 Plan
 				ul
@@ -55,45 +55,101 @@ body
 					li
 						h3 Case :
 						input(type='text' name='case')
+						label.custom-file-upload(for='img-case')
+							i.fas.fa-file-upload
+							p#text-case
+						input.img#img-case(type='file' name='img-case' accept='image/png, image/jpeg' onchange='newImg(this.files, 0)')
 					li
 						h3 Motherboard :
 						input(type='text' name='mb')
+						label.custom-file-upload(for='img-mb')
+							i.fas.fa-file-upload
+							p#text-mb
+						input.img#img-mb(type='file' name='img-mb' accept='image/png, image/jpeg' onchange='newImg(this.files, 1)')
 					li
 						h3 Processor :
 						input(type='text' name='cpu')
+						label.custom-file-upload(for='img-cpu')
+							i.fas.fa-file-upload
+							p#text-cpu
+						input.img#img-cpu(type='file' name='img-cpu' accept='image/png, image/jpeg' onchange='newImg(this.files, 2)')
 					li
 						h3 Cooler :
 						input(type='text' name='cooler')
+						label.custom-file-upload(for='img-cooler')
+							i.fas.fa-file-upload
+							p#text-cooler
+						input.img#img-cooler(type='file' name='img-cooler' accept='image/png, image/jpeg' onchange='newImg(this.files, 3)')
 					li
 						h3 Memory :
 						input(type='text' name='ram')
+						label.custom-file-upload(for='img-ram')
+							i.fas.fa-file-upload
+							p#text-ram
+						input.img#img-ram(type='file' name='img-ram' accept='image/png, image/jpeg' onchange='newImg(this.files, 4)')
 					li
 						h3 Graphic Card :
 						input(type='text' name='gpu')
+						label.custom-file-upload(for='img-gpu')
+							i.fas.fa-file-upload
+							p#text-gpu
+						input.img#img-gpu(type='file' name='img-gpu' accept='image/png, image/jpeg' onchange='newImg(this.files, 5)')
 					li
 						h3 HDD Storage :
 						input(type='text' name='hdd')
+						label.custom-file-upload(for='img-hdd')
+							i.fas.fa-file-upload
+							p#text-hdd
+						input.img#img-hdd(type='file' name='img-hdd' accept='image/png, image/jpeg' onchange='newImg(this.files, 6)')
 					li
 						h3 SSD Storage :
 						input(type='text' name='ssd')
+						label.custom-file-upload(for='img-ssd')
+							i.fas.fa-file-upload
+							p#text-ssd
+						input.img#img-ssd(type='file' name='img-ssd' accept='image/png, image/jpeg' onchange='newImg(this.files, 7)')
 					li
 						h3 Power Supply :
 						input(type='text' name='psu')
+						label.custom-file-upload(for='img-psu')
+							i.fas.fa-file-upload
+							p#text-psu
+						input.img#img-psu(type='file' name='img-psu' accept='image/png, image/jpeg' onchange='newImg(this.files, 8)')
 					li
 						h3 Cables :
 						input(type='text' name='cables')
+						label.custom-file-upload(for='img-cables')
+							i.fas.fa-file-upload
+							p#text-cables
+						input.img#img-cables(type='file' name='img-cables' accept='image/png, image/jpeg' onchange='newImg(this.files, 9)')
 					li
 						h3 Fans :
 						input(type='text' name='fans')
+						label.custom-file-upload(for='img-fans')
+							i.fas.fa-file-upload
+							p#text-fans
+						input.img#img-fans(type='file' name='img-fans' accept='image/png, image/jpeg' onchange='newImg(this.files, 10)')
 					li
 						h3 Leds :
-						input(type='text' name='led')
+						input(type='text' name='leds')
+						label.custom-file-upload(for='img-leds')
+							i.fas.fa-file-upload
+							p#text-leds
+						input.img#img-leds(type='file' name='img-leds' accept='image/png, image/jpeg' onchange='newImg(this.files, 11)')
 					li
 						h3 OS :
 						input(type='text' name='os')
+						label.custom-file-upload(for='img-os')
+							i.fas.fa-file-upload
+							p#text-os
+						input.img#img-os(type='file' name='img-os' accept='image/png, image/jpeg' onchange='newImg(this.files, 12)')
 					li
 						h3 Extra :
 						input(type='text' name='extra')
+						label.custom-file-upload(for='img-extra')
+							i.fas.fa-file-upload
+							p#text-extra
+						input.img#img-extra(type='file' name='img-extra' accept='image/png, image/jpeg' onchange='newImg(this.files, 13)')
 			#price.page
 				h1 Price
 				ul

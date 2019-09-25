@@ -1253,3 +1253,108 @@
 {"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-24T17:55:01.978Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-24T17:56:07.464Z"}
 {"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-24T17:56:09.487Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T05:42:34.412Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T05:42:36.427Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T15:20:26.601Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T15:20:28.617Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T15:46:00.648Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T15:46:02.664Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T15:52:34.602Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T15:52:36.626Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T15:53:03.644Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T15:53:05.665Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:01:42.400Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:01:44.424Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:04:38.167Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:04:40.183Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:07:46.632Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:07:48.654Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:08:05.168Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:08:07.185Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:08:40.535Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:08:42.556Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:09:20.126Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:09:22.146Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:09:39.057Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:09:41.077Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:09:55.398Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:09:57.417Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:10:27.246Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:10:29.265Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:11:06.449Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:11:08.472Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:11:19.493Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:11:21.515Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:11:57.712Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:11:59.739Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:12:24.656Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:12:26.680Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:12:38.007Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:12:40.027Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:12:48.373Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:12:50.393Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:12:58.319Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:13:00.341Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:14:36.387Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:14:38.401Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:14:46.401Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:14:48.419Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:14:58.882Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:15:00.908Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:15:13.429Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:15:15.452Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:20:09.102Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:20:11.124Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:20:30.209Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:20:32.231Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T16:20:53.140Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T16:20:55.164Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T17:06:17.205Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T17:06:19.222Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T17:10:02.593Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T17:10:04.613Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T17:10:31.848Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T17:10:33.867Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T17:11:30.884Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T17:11:32.901Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T17:16:57.140Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T17:16:59.159Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T17:50:14.051Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T17:50:16.069Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:00:31.610Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:00:33.632Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:02:19.527Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:02:21.544Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:02:46.513Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:02:48.531Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:02:59.976Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:03:01.992Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:03:04.923Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:03:06.940Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:03:12.119Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:03:14.135Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:03:18.862Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:03:20.880Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:06:10.637Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:06:12.655Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:06:37.655Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:06:39.673Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:08:57.720Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:08:59.736Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:09:17.188Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:09:19.203Z"}
+{"message":"path is not defined","stack":"ReferenceError: path is not defined\n    at DiskStorage.destination [as getDestination] (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\admin.js:12:14)\n    at DiskStorage._handleFile (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:144:17\n    at allowAll (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:198:13)\n    at Busboy.emit (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:198:13)\n    at HeaderParser.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:198:13)\n    at HeaderParser._finish (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:198:13)\n    at SBMH._sbmh_feed (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)","level":"error","timestamp":"2019-09-25T18:09:22.480Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:10:51.871Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:10:53.886Z"}
+{"message":"path is not defined","stack":"ReferenceError: path is not defined\n    at DiskStorage.destination [as getDestination] (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\admin.js:12:14)\n    at DiskStorage._handleFile (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:144:17\n    at allowAll (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:198:13)\n    at Busboy.emit (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:198:13)\n    at HeaderParser.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:198:13)\n    at HeaderParser._finish (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)\n    at SBMH.emit (events.js:198:13)\n    at SBMH._sbmh_feed (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\streamsearch\\lib\\sbmh.js:159:14)","level":"error","timestamp":"2019-09-25T18:10:57.764Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:11:17.779Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:11:19.797Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:19:03.478Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:19:05.503Z"}
+{"message":"Cannot read property 'replace' of undefined","stack":"TypeError: Cannot read property 'replace' of undefined\n    at DiskStorage.filename [as getFilename] (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\admin.js:15:29)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\storage\\disk.js:34:10\n    at DiskStorage.destination [as getDestination] (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\admin.js:12:5)\n    at DiskStorage._handleFile (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:144:17\n    at allowAll (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:198:13)\n    at Busboy.emit (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:198:13)\n    at HeaderParser.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:198:13)\n    at HeaderParser._finish (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)","level":"error","timestamp":"2019-09-25T18:19:09.818Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:19:44.621Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:19:46.639Z"}
+{"message":"Cannot read property 'replace' of undefined","stack":"TypeError: Cannot read property 'replace' of undefined\n    at DiskStorage.filename [as getFilename] (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\admin.js:15:29)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\storage\\disk.js:34:10\n    at DiskStorage.destination [as getDestination] (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\admin.js:12:5)\n    at DiskStorage._handleFile (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:144:17\n    at allowAll (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:198:13)\n    at Busboy.emit (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:198:13)\n    at HeaderParser.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:198:13)\n    at HeaderParser._finish (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)","level":"error","timestamp":"2019-09-25T18:19:50.487Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2019-09-25T18:20:05.177Z"}
+{"level":"info","message":"Connected to mongodb://localhost/pcofthegod...","timestamp":"2019-09-25T18:20:07.193Z"}
+{"message":"Cannot read property 'replace' of undefined","stack":"TypeError: Cannot read property 'replace' of undefined\n    at DiskStorage.filename [as getFilename] (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\admin.js:15:29)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\storage\\disk.js:34:10\n    at DiskStorage.destination [as getDestination] (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\routes\\admin.js:12:5)\n    at DiskStorage._handleFile (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\storage\\disk.js:31:8)\n    at C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:144:17\n    at allowAll (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:8:3)\n    at wrappedFileFilter (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\index.js:44:7)\n    at Busboy.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\multer\\lib\\make-middleware.js:114:7)\n    at Busboy.emit (events.js:198:13)\n    at Busboy.emit (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\main.js:38:33)\n    at PartStream.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\busboy\\lib\\types\\multipart.js:213:13)\n    at PartStream.emit (events.js:198:13)\n    at HeaderParser.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\Dicer.js:51:16)\n    at HeaderParser.emit (events.js:198:13)\n    at HeaderParser._finish (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:68:8)\n    at SBMH.<anonymous> (C:\\Users\\maxhe\\OneDrive\\Skrivbord\\Atom projects\\Pcofthegod\\node_modules\\dicer\\lib\\HeaderParser.js:40:12)","level":"error","timestamp":"2019-09-25T18:20:16.645Z"}
