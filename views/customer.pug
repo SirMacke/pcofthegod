@@ -169,10 +169,14 @@ body
 			div
 				img.mySlides(src='/./images/cpu.jpg')
 				img.mySlides(src='/./images/case.jpg')
+				- var imageTypes = ['case', 'mb', 'cpu', 'cooler', 'ram', 'gpu', 'hdd', 'ssd', 'psu', 'cables', 'fans', 'leds', 'os', 'extra'];
+				- var img = parts.img_case
+				img.mySlides(src=img)
 				div
 					i#imageLeft.fas.fa-chevron-left(onclick='plusDivs(-1)')
 					i#imageRight.fas.fa-chevron-right(onclick='plusDivs(1)')
 					div
+						-
 						span.demo(onclick='currentDiv(1)')
 						span.demo(onclick='currentDiv(2)')
 		button#pageLeft.fas.fa-chevron-left.pageSelectors(onclick='pageSelection(-1)')

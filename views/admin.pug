@@ -32,50 +32,35 @@ body
 				span.checkmark#fixedSpan Fixed
 		- const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 		.container#newContainer
+		//-
 			for n, i in users
 				if !users[i].order
 					a.plan(href='./admin/' + users[i]._id)
 						h3= users[i].firstName + ' ' + users[i].lastName
 						h4.country= users[i].country
-						p.budget= 'Budget : $' + plans[i].budget.toString()
-						p.sent= months[plans[i].dateCreated.getMonth()] + ' ' + plans[i].dateCreated.getDate() + ' ' + plans[i].dateCreated.getFullYear()
+						p.budget= 'Budget : $' + users[i].planData.budget
+						p.sent= months[users[i].planData.dateCreated.getMonth()] + ' ' + users[i].planData.dateCreated.getDate() + ' ' + users[i].planData.dateCreated.getFullYear()
 		.container#fixedContainer
+		//-
 			for n, i in users
 				if users[i].order
 					a.plan(href='./admin/' + users[i]._id)
 						h3= users[i].firstName + ' ' + users[i].lastName
 						h4.country= users[i].country
-						p.budget= 'Budget : $' + plans[i].budget.toString()
-						p.sent= months[plans[i].dateCreated.getMonth()] + ' ' + plans[i].dateCreated.getDate() + ' ' + plans[i].dateCreated.getFullYear()
+						p.budget= 'Budget : $' + users[i].planData.budget
+						p.sent= months[users[i].planData.dateCreated.getMonth()] + ' ' + users[i].planData.dateCreated.getDate() + ' ' + users[i].planData.dateCreated.getFullYear()
 	section#orders
 		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
 		h1 New Orders
 		.container
-			a.order(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget : $' + budget
-				p.sent= date
-			a.order(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget: $' + budget
-				p.sent= date
-			a.order(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget: $' + budget
-				p.sent= date
-			a.order(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget: $' + budget
-				p.sent= date
-			a.order(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget: $' + budget
-				p.sent= date
+		//-
+			for n, i in users
+				if orders.bought
+					a.plan(href='./admin/' + users[i]._id)
+						h3= users[i].firstName + ' ' + users[i].lastName
+						h4.country= users[i].country
+						p.budget= 'Budget : $' + users[i].planData.budget
+						p.sent= months[users[i].planData.dateCreated.getMonth()] + ' ' + users[i].planData.dateCreated.getDate() + ' ' + users[i].planData.dateCreated.getFullYear()
 	section#delivered
 		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
 		h1 Delivered Computers
