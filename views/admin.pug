@@ -22,7 +22,7 @@ body
 				li#settings-button Settings
 	section#plans
 		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
-		h1 New Plans
+		h1 Plans
 		.newOrFixed
 			label.container
 				input(type='radio' name="newOrFixed" onclick='newOrFixed(0)' checked='')
@@ -32,64 +32,43 @@ body
 				span.checkmark#fixedSpan Fixed
 		- const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 		.container#newContainer
-		//-
 			for n, i in users
 				if !users[i].order
 					a.plan(href='./admin/' + users[i]._id)
 						h3= users[i].firstName + ' ' + users[i].lastName
 						h4.country= users[i].country
-						p.budget= 'Budget : $' + users[i].planData.budget
-						p.sent= months[users[i].planData.dateCreated.getMonth()] + ' ' + users[i].planData.dateCreated.getDate() + ' ' + users[i].planData.dateCreated.getFullYear()
+						p.budget= 'Budget : $' + users[i].plan.budget
+						p.sent= months[users[i].plan.dateCreated.getMonth()] + ' ' + users[i].plan.dateCreated.getDate() + ' ' + users[i].plan.dateCreated.getFullYear()
 		.container#fixedContainer
-		//-
 			for n, i in users
-				if users[i].order
+				if users[i].order && !users[i].order.bought
 					a.plan(href='./admin/' + users[i]._id)
 						h3= users[i].firstName + ' ' + users[i].lastName
 						h4.country= users[i].country
-						p.budget= 'Budget : $' + users[i].planData.budget
-						p.sent= months[users[i].planData.dateCreated.getMonth()] + ' ' + users[i].planData.dateCreated.getDate() + ' ' + users[i].planData.dateCreated.getFullYear()
+						p.budget= 'Budget : $' + users[i].plan.budget
+						p.sent= months[users[i].plan.dateCreated.getMonth()] + ' ' + users[i].plan.dateCreated.getDate() + ' ' + users[i].plan.dateCreated.getFullYear()
 	section#orders
 		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
-		h1 New Orders
+		h1 Orders
 		.container
-		//-
 			for n, i in users
-				if orders.bought
-					a.plan(href='./admin/' + users[i]._id)
+				if users[i].order && users[i].order.bought && !users[i].order.delivered
+					a.order(href='./admin/' + users[i]._id)
 						h3= users[i].firstName + ' ' + users[i].lastName
 						h4.country= users[i].country
-						p.budget= 'Budget : $' + users[i].planData.budget
-						p.sent= months[users[i].planData.dateCreated.getMonth()] + ' ' + users[i].planData.dateCreated.getDate() + ' ' + users[i].planData.dateCreated.getFullYear()
+						p.budget= 'Budget : $' + users[i].plan.budget
+						p.sent= months[users[i].order.dateCreated.getMonth()] + ' ' + users[i].order.dateCreated.getDate() + ' ' + users[i].order.dateCreated.getFullYear()
 	section#delivered
 		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
 		h1 Delivered Computers
 		.container
-			a.delivered(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget : $' + budget
-				p.sent= date
-			a.delivered(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget: $' + budget
-				p.sent= date
-			a.delivered(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget: $' + budget
-				p.sent= date
-			a.delivered(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget: $' + budget
-				p.sent= date
-			a.delivered(href='./admin/' + id)
-				h3= firstName + ' ' + lastName
-				h4.country= country
-				p.budget= 'Budget: $' + budget
-				p.sent= date
+			for n, i in users
+				if users[i].order && users[i].order.bought && users[i].order.delivered
+					a.delivered(href='./admin/' + users[i]._id)
+						h3= users[i].firstName + ' ' + users[i].lastName
+						h4.country= users[i].country
+						p.budget= 'Budget : $' + users[i].plan.budget
+						p.sent= months[users[i].order.dateCreated.getMonth()] + ' ' + users[i].order.dateCreated.getDate() + ' ' + users[i].order.dateCreated.getFullYear()
 	section#settings
 		img(src='/./images/red gaming setup5.jpg' alt='Red gaming setup')
 		h1 Settings

@@ -13,25 +13,15 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', [auth, admin], async (req, res) => {
-  User.find({}, function(err, users) {
-    var userMap = users;
-    userMap.shift();
+  const users = await User.find({}).select('-password');
+  users.shift();
 
-    var userData = [];
+  for (let i = 0; i < users.length; i++) {
+    users[i].plan = await Plan.findById(users[i].plan).select(['budget', 'dateCreated']);
+    users[i].order = await Order.findById(users[i].order).select(['bought', 'dateCreated']);
+  }
 
-    // Fungerar inte...
-
-    for (let i = 0; i < userMap.length; i++) {
-      var user = JSON.parse(JSON.stringify(userMap[i]));
-      user.planData = Plan.find({ _id: user.plan }, function(err, plan) { var planData = plan });
-      user.orderData = Order.find({ _id: user.order }, function(err, order) { var orderData = order });
-
-      userData.push(user);
-      console.log(user);
-    }
-
-    res.render('admin', { users: userData });
-  }).select('-password');
+  res.render('admin', { users: users });
 });
 
 router.get('/:id', [auth, admin], async (req, res) => {
